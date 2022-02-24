@@ -98,10 +98,11 @@ header{
     
 }
 
-hr{ 
-  
+.header .VerticalLine
+{
     border:         none;
     border-left:    1px solid #fff;
     height:         40px;
-    width:          1px;       
+    width:          1px;    
+    margin-top: 5px; 
 }

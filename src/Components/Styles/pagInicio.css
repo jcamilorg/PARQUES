@@ -4,15 +4,14 @@
     text-align: center;
     background-color: #fff;
 }
+ContainerVideo
+{
+    z-index: -1;
+}
 
 .BannerParques{
     position: relative;
     top:-50px;
-}
-
-ContainerVideo
-{
-    z-index: -1;
 }
 
 .gridContainer
@@ -31,12 +30,12 @@ ContainerVideo
     padding: 10px 50px 70px 50px;
     border-radius: 20px;
     color: #fff;
-    background-color: #69A14D;
+    background-color: #008C2A;
     font-size: 35px;
 
 }
 
-.CardOfParque
+.gridContainer .CardOfParque
 {
     border-radius: 5px;
     margin:0 20px 25px 0;
@@ -46,7 +45,7 @@ ContainerVideo
     box-shadow: 1px 1px 20px #0000009a;
 }
 
-.CardOfParque .title {
+.gridContainer .CardOfParque .title {
     position: relative;
     top:-20px;
     margin: 0px 15%;
@@ -56,10 +55,9 @@ ContainerVideo
     background-color: #69A14D;
 }
 
-.CardOfParque .description {
+.gridContainer .CardOfParque .description {
     margin-top: -10px;
 }
-
 
 .btnReservas
 {
@@ -71,3 +69,77 @@ ContainerVideo
     padding: 15px 70px;
 }
 
+.BannerInformativo
+{
+    background-color: #365E68;
+    display: flex;
+    justify-content: center;
+    padding: 70px 10%;
+}
+
+.BannerInformativo .title
+{
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.containerProgramate .title
+{
+
+    background-color: #95D043 ;
+}
+
+.BannerInformativo .containerInformate .title
+{
+    background-color: #18A69D;
+}
+
+
+.containerProgramate{
+    margin-right: 20px;
+}
+
+.containerProgramate .Slider
+{
+    background-color: #fff;
+    padding: 10px 40px;
+}
+
+.containerInformate {
+    margin-left: 20px;
+}
+
+.CardInfo
+{
+    display: flex;
+    align-items: center;
+    border-radius:5px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 10px #0000006b;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+.CardInfo p {
+    margin-left: 10px;
+}
+
+.BannerInformativo hr {
+    border: none;
+    background-color: #18A69D;
+    padding: 3px 0;
+}
+
+.BannerInformativo .hrProgramate
+{
+    background-color: #95D043;
+}
+
+.BannerInformativo .hrInformate
+{
+    background-color: #18A69D;
+}

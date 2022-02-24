@@ -63,6 +63,55 @@ class BannerParques extends Component {
     }
 }
 
+function CardInfo(props){
+    return(
+        <div className="CardInfo">
+            <img  width="140px"src={props.imgsrc}/>
+            <p>{props.description}</p>
+        </div>
+
+    )
+}
+
+class BannerInformativo extends Component {
+    render() {
+        return (
+            <div className="BannerInformativo">
+
+                <div className="containerProgramate">
+                    <span className="title">¡Prográmate!</span>
+                    <hr className="hrProgramate"/>
+                    <div className="Slider">
+                        <img  width="400px"src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg"/>
+                    </div>
+                </div>
+
+                <div className="containerInformate">
+                    <span className="title">Infórmate</span>
+                    <hr className="hrInformate"/>
+                    <div className="listOfCardInfo">
+                        <CardInfo
+                        imgsrc = "https://www.car.gov.co/uploads/blog/zeQbdINWIf.jpeg" 
+                        description="La CAR prohibe plásticos de un solo uso en sus parques ecoturísticos"
+                        />
+
+                        <CardInfo
+                        imgsrc = "https://www.car.gov.co/uploads/blog/zeQbdINWIf.jpeg" 
+                        description="La CAR prohibe plásticos de un solo uso en sus parques ecoturísticos"
+                        />
+
+                        <CardInfo
+                        imgsrc = "https://www.car.gov.co/uploads/blog/zeQbdINWIf.jpeg" 
+                        description="La CAR prohibe plásticos de un solo uso en sus parques ecoturísticos"
+                        />
+
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
 class PagInicio extends Component {
     render() {
         return (
@@ -71,6 +120,7 @@ class PagInicio extends Component {
                 <iframe width="100%" height="500" src="https://www.youtube.com/embed/P3MY6vPdgZM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
             </div>
             <BannerParques/>
+            <BannerInformativo/>
         </div>
         )
     }

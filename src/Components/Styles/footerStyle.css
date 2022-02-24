@@ -47,8 +47,7 @@ footer {
     box-shadow: 2px 2px 20px #0000009a;
 }
 
-.VerticalLine{ 
-  
+.VerticalLine{  
     border:         none;
     border-left:    1px solid #fff;
     height:         100px;

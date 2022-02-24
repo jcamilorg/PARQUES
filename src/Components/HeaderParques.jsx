@@ -14,19 +14,19 @@ export default function HeaderParques() {
 
             <ul>
                 <li><a href="../index.html" target="index">Inicio</a></li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li>Parques </li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li>Qué hacer </li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li><a href="../games.html" target="index">Horarios y tarifas</a></li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li>Para tener en cuenta </li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li>Pregutas frecuentes</li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li>Reservas</li>
-                <hr/>
+                <div class="VerticalLine"></div>
                 <li>Contáctanos</li>
             </ul>
         </div>
