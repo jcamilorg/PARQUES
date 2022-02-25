@@ -5,7 +5,7 @@ export default function HeaderParques() {
   return (
     <header>
        <div id = "ContainerImgTopHeader">
-            <input type="text" placeholder="Buscar en esta pagina 🔎"/>
+            <input type="text" placeholder="(Desarrollo)Buscar en esta pagina 🔎"/>
         </div>
         <div className="header">
             <div className="ContainerImgHeader">
