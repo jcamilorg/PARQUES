@@ -79,7 +79,7 @@ class BannerInformativo extends Component {
             <div className="BannerInformativo">
 
                 <div className="containerProgramate">
-                    <span className="title">¡Prográmate!</span>
+                    <span className="titleRounded">¡Prográmate!</span>
                     <hr className="hrProgramate"/>
                     <div className="Slider">
                         <img  width="400px"src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg"/>
@@ -87,7 +87,7 @@ class BannerInformativo extends Component {
                 </div>
 
                 <div className="containerInformate">
-                    <span className="title">Infórmate</span>
+                    <span className="titleRounded">Infórmate</span>
                     <hr className="hrInformate"/>
                     <div className="listOfCardInfo">
                         <CardInfo
@@ -116,9 +116,13 @@ class BannerExperiencias extends Component {
     render() {
         return (
         <div className="BannerExperiencias">
-            <h2>Experiencias de nuestros visitantes</h2>
-            <hr/>
-            <div className = "ContainerImg"></div>
+            <span className="titleRounded">Experiencias de nuestros visitantes</span>
+            <hr className="separador-70-percen"/>
+            <div className="Slider">
+                <img  width="400px"src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg"/>
+            </div>
+            <br/>
+            <button className="btn">Contar mi experiencia</button>
         </div>
         )
     }

@@ -77,22 +77,23 @@ ContainerVideo
     padding: 70px 10%;
 }
 
-.BannerInformativo .title
+.titleRounded
 {
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px ;
     padding: 5px 50px;
     font-size: 20px;
     font-weight: 500;
+    background-color: #18A69D;
 }
 
-.containerProgramate .title
+.containerProgramate .titleRounded
 {
 
     background-color: #95D043 ;
 }
 
-.BannerInformativo .containerInformate .title
+.BannerInformativo .containerInformate .titleRounded
 {
     background-color: #18A69D;
 }
@@ -102,10 +103,12 @@ ContainerVideo
     margin-right: 20px;
 }
 
-.containerProgramate .Slider
+.Slider
 {
+    display: inline-block;
     background-color: #fff;
     padding: 10px 40px;
+    box-shadow: 1px 1px 5px #0000006b;
 }
 
 .containerInformate {
@@ -147,9 +150,26 @@ ContainerVideo
 .BannerExperiencias
 {
     background-color: #fff;
+    padding-top:5%;
     height: 100vh;
-    color: #000;
     background-image: url("../Files/camping_background.png");
     background-repeat: no-repeat;
     background-position: 0% 100%;
 }
+
+.separador-70-percen
+{
+    width: 70%;
+}
+
+.btn
+{
+    margin-top: 30px;
+    border-radius:7px;
+    background-color: #18A69D;
+    color:#fff;
+    font-size: 20px;
+    padding: 10px 30px;
+
+}
+
