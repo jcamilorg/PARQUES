@@ -128,7 +128,7 @@ ContainerVideo
     margin-left: 10px;
 }
 
-.BannerInformativo hr {
+.pagInicio hr {
     border: none;
     background-color: #18A69D;
     padding: 3px 0;
@@ -142,4 +142,14 @@ ContainerVideo
 .BannerInformativo .hrInformate
 {
     background-color: #18A69D;
+}
+
+.BannerExperiencias
+{
+    background-color: #fff;
+    height: 100vh;
+    color: #000;
+    background-image: url("../Files/camping_background.png");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }

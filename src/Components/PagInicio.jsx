@@ -6,7 +6,7 @@ import "./Styles/pagInicio.css";
 function CardOfParque(props) {
     return (
         <div className="CardOfParque">
-            <img width="100%" src={props.imgsrc}/>
+            <img width="100%" height="175px" src={props.imgsrc}/>
             <div className="Content">
                 <h3 className="title">{props.title}</h3>
                 <p className="description">{props.description}</p>
@@ -112,6 +112,22 @@ class BannerInformativo extends Component {
     }
 }
 
+class BannerExperiencias extends Component {
+    render() {
+        return (
+        <div className="BannerExperiencias">
+            <h2>Experiencias de nuestros visitantes</h2>
+            <hr/>
+            <div className = "ContainerImg"></div>
+        </div>
+        )
+    }
+  
+
+}
+
+
+
 class PagInicio extends Component {
     render() {
         return (
@@ -121,6 +137,7 @@ class PagInicio extends Component {
             </div>
             <BannerParques/>
             <BannerInformativo/>
+            <BannerExperiencias/>
         </div>
         )
     }
