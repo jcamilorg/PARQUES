@@ -11,6 +11,7 @@ var CardsOfParques = [
       <strong>Disfruta en familia </strong>,
       "un atractivo escenario de bosque natural.",
     ]}
+    linkParque="nuestros-parques/embalse-neusa"
   ></CardOfParque>,
 
   <CardOfParque
@@ -20,6 +21,7 @@ var CardsOfParques = [
       "En este maravilloso complejo ecoturístico ",
       <b>conoce de primera mano todo sobre la cultura Muisca.</b>,
     ]}
+    linkParque="nuestros-parques/guatavita"
   ></CardOfParque>,
 
   <CardOfParque
@@ -28,6 +30,7 @@ var CardsOfParques = [
     description={[
       "Comparte junto a tus amigos, las zonas verdes para camping y picnic.",
     ]}
+    linkParque="nuestros-parques/rio-neusa"
   ></CardOfParque>,
 
   <CardOfParque
@@ -36,6 +39,7 @@ var CardsOfParques = [
     description={[
       "Recorre senderos adornados decolorida vegetación y hermosas aves a su paso. ",
     ]}
+    linkParque="nuestros-parques/puente-sopo"
   ></CardOfParque>,
 
   <CardOfParque
@@ -44,6 +48,7 @@ var CardsOfParques = [
     description={[
       "Sal de la rutina y programa un día de pesca deportiva mientras contemplas el hermoso paisaje.",
     ]}
+    linkParque="nuestros-parques/el-hato"
   ></CardOfParque>,
 
   <CardOfParque
@@ -52,6 +57,7 @@ var CardsOfParques = [
     description={[
       "Visita este destino ideal para el turismo religioso, de meditación y esparcimiento.",
     ]}
+    linkParque="nuestros-parques/juan-pablo-segundo"
   ></CardOfParque>,
 ];
 
@@ -122,10 +128,14 @@ class BannerExperiencias extends Component {
         <span className="titleRounded">
           Experiencias de nuestros visitantes
         </span>
-        <hr className="separador-70-percen" />
-        <div className="Slider">
-          <img src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg" />
+        <div></div>
+        <div className="d-inline-block">
+          <hr className="separador-car" />
+          <div className="Slider">
+            <img src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg" />
+          </div>
         </div>
+
         <br />
         <button className="btn">Contar mi experiencia</button>
       </div>

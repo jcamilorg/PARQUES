@@ -7,9 +7,13 @@ function CardOfParque(props) {
         <img src={props.imgsrc} />
       </div>
       <div className="Content">
-        <h3 className="title p-2">{props.title}</h3>
+        <a href={props.linkParque} class="text-decoration-none">
+          <h3 className="title p-2 mx-2 mx-md-4 mx-lg-5">{props.title}</h3>{" "}
+        </a>
         <p className="description">{props.description}</p>
-        <div className="link">Ver más ➕</div>
+        <a href={props.linkParque} class="text-decoration-none">
+          <div className="link">Ver más ➕</div>
+        </a>
       </div>
     </div>
   );

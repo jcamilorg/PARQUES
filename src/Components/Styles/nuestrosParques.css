@@ -3,16 +3,7 @@
   background-image: url("https://p4.wallpaperbetter.com/wallpaper/375/580/993/sky-tropics-sea-water-horizon-waves-ocean-wallpaper-preview.jpg");
   background-position: 0% 0%;
   background-repeat: repeat;
-  background-size: 20%;
-}
-
-.NuestrosParques .mainTitle {
-  display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 0;
-  color: #fff;
-  font-size: 60px;
-  text-shadow: 3px 3px 10px black;
+  background-size: 120%;
 }
 
 .ContainerGridParques {
@@ -20,7 +11,7 @@
   padding-top: 80px;
   padding-bottom: 100px;
   background-color: #fff;
-  border-radius: 30% 30% 0 0;
+  border-radius: 30% 30% 0% 0;
 }
 
 .NuestrosParques .gridParques .CardOfParque {

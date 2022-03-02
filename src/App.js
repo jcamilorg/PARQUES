@@ -8,6 +8,7 @@ import HeaderParques from "./Components/HeaderParques";
 import FooterParques from "./Components/FooterParques";
 import PagInicio from "./Components/PagInicio";
 import NuestrosParques from "./Components/NuestrosParques";
+import PagQueHacer from "./Components/PagQueHacer";
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
         </Route>
         <Route path="/nuestros-parques">
           <NuestrosParques />
+        </Route>
+        <Route path="/que-hacer">
+          <PagQueHacer />
         </Route>
       </Router>
       <FooterParques />

@@ -45,27 +45,27 @@ export default function HeaderParques() {
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Qué hacer</a>
+                <a href="/que-hacer">Qué hacer</a>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Horarios y tarifas</a>
+                <a href="/horarios-y-tarifas">Horarios y tarifas</a>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Para tener en cuenta</a>
+                <a href="/para-tener-encuenta">Para tener en cuenta</a>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Pregutas frecuentes</a>
+                <a href="/preguntas-frecuentes">Pregutas frecuentes</a>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Reservas</a>
+                <a href="/reservas">Reservas</a>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Contáctanos</a>
+                <a href="/contactanos">Contáctanos</a>
                 <hr className="d-lg-none p-0 m-0" />
               </div>
             </div>
