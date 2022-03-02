@@ -1,112 +1,83 @@
-.containerHeader
-{
-    height: 150px;
-    width: 80%;
+.containerHeader {
+  height: 150px;
 }
-header{
-    margin: 0;
-    padding: 0px;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 
-    box-shadow: 0px 2px 50px #00000065;
-    
+  box-shadow: 0px 2px 50px #00000065;
 }
 
-#ContainerImgTopHeader
-{
-    height: 100px;
-    display:flex;
-    align-items: center;
-    justify-content: right;
-
-    background-image: url("https://img.freepik.com/vector-gratis/patron-fisuras-petalos-sobre-fondo-gris_53876-61842.jpg?size=338&ext=jpg&ga=GA1.2.2069408614.1641772800");
+#ContainerImgTopHeader {
+  position: relative;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-image: url("../Assets/bg-Header.png");
+  background-size: 40%;
+  opacity: 25%;
+  filter: grayscale(0.9);
+  z-index: -1;
 }
 
-#ContainerImgTopHeader input
-{
-    margin-right: 10%;
-    border-radius: 6px;
-    height: 30px;
-    width: 20%;
-    text-align: center;
-    font-size: 18px;
-    
+#ContainerImgTopHeader input {
+  margin-right: 10%;
+  border-radius: 6px;
+  height: 30px;
+  width: 20%;
+  text-align: center;
+  font-size: 18px;
 }
 
-.header
-{
-    display: flex;
-    justify-content: Center;
-    align-items: center;
-    height: 50px;
-
-    color: #fff;
-    background: #8da73c;
-    /*background: linear-gradient(0deg, rgba(6,122,21,1) 0%, rgba(156,190,78,1) 100%);*/
-    
-    overflow: visible;
+.navbarCar {
+  margin: 0;
+  padding: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  background: #8da73c;
 }
 
-.ContainerImgHeader
-{
-    margin: 0 15px 0 10%;
-    align-items: center;
-    overflow: visible;
-
-    background-color: #fff;
-    border-radius: 40%;
+.ContainerImgHeader {
+  position: absolute;
+  top: -70px;
+  align-items: center;
+  overflow: visible;
+  background-color: #fff;
+  border-radius: 40%;
 }
 
-.header img
-{
-    width: 170px;
-    height: auto;
+.SpaceContainerImgHeader {
+  width: 170px;
+  height: 50px;
 }
 
-.header ul
-{
-    display: flex;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    
-    list-style:none;    
+.navbar-nav a {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px 0 15px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
 }
 
-.header ul li 
-{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 0 15px 0 15px;
-    font-weight:500;
-    vertical-align: middle;
+.navbar-nav a:hover {
+  background-color: #045861;
 }
 
-.header ul li:hover
-{
-    background-color: #045861;
-}
-
-.header ul li a {
-    width: 100%;
-    color: #fff;
-    text-decoration: none;
-   
-    
-}
-
-.header .VerticalLine
-{
-    border:         none;
-    border-left:    1px solid #fff;
-    height:         40px;
-    width:          1px;    
-    margin-top: 5px; 
+header .VerticalLine {
+  border: none;
+  border-left: 1px solid #fff;
+  height: 40px;
+  width: 1px;
+  margin-top: 5px;
 }

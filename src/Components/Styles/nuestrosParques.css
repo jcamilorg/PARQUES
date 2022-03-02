@@ -1,53 +1,43 @@
-.NuestrosParques
-{
-    background-color: #fff;
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/375/580/993/sky-tropics-sea-water-horizon-waves-ocean-wallpaper-preview.jpg");
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    background-size: 20%;
+.NuestrosParques {
+  background-color: #fff;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/375/580/993/sky-tropics-sea-water-horizon-waves-ocean-wallpaper-preview.jpg");
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-size: 20%;
 }
 
-.NuestrosParques .mainTitle
-{
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 0;
-    color: #fff;
-    font-size: 60px;
-    text-shadow: 3px 3px 10px black;
+.NuestrosParques .mainTitle {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 60px;
+  text-shadow: 3px 3px 10px black;
 }
 
-.ContainerGridParques
-{
-    margin-top:50px;
-    padding-top: 80px;
-    padding-bottom: 100px;
-    background-color: #fff;
-    border-radius: 20% 20% 0 0;
+.ContainerGridParques {
+  margin-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  border-radius: 30% 30% 0 0;
 }
 
-
-.NuestrosParques .gridParques .CardOfParque
-{
-    box-shadow: none;
+.NuestrosParques .gridParques .CardOfParque {
+  box-shadow: none;
 }
 
-.NuestrosParques .gridParques img
-{
-    border-radius: 8px;
+.NuestrosParques .gridParques img {
+  border-radius: 8px;
 }
 
-.NuestrosParques .gridParques .link
-{
-    color:#38B4B6;
-    text-decoration: underline;
-    font-size: 18px;
-    font-weight: 500;
+.NuestrosParques .gridParques .link {
+  color: #38b4b6;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.NuestrosParques .gridParques .title
-{
-    background-color: #00799F;
+.NuestrosParques .gridParques .title {
+  background-color: #00799f;
 }
-
-

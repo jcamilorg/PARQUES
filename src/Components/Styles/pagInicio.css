@@ -1,147 +1,124 @@
-.pagInicio
-{
-    text-align: center;
-    background-color: #fff;
-}
-ContainerVideo
-{
-    z-index: -1;
+.pagInicio {
+  text-align: center;
+  background-color: #fff;
 }
 
-.BannerParques{
-    position: relative;
-    top:-50px;
+.BannerParques {
+  position: relative;
+  top: -70px;
 }
 
-.tituloParques
-{
-    display: inline-block;
-    max-width: 450px;
-    padding: 10px 50px 70px 50px;
-    border-radius: 20px;
-    color: #fff;
-    background-color: #008C2A;
-    font-size: 35px;
-
+.tituloParques {
+  display: inline-block;
+  max-width: 700px;
+  width: 70%;
+  padding: 10px 50px 70px 50px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #008c2a;
+  font-size: 35px;
 }
 
-.BannerParques .gridParques
-{
-    position: relative;
-    top: -70px;
+.BannerParques .gridParques {
+  position: relative;
+  top: -70px;
 }
 
-.btnReservas
-{
-    margin-top: -70px;
-    border-radius:7px;
-    background-color: #317f9f;
-    color:#fff;
-    font-size: 35px;
-    padding: 15px 70px;
+.btnReservas {
+  margin-top: -70px;
+  border-radius: 7px;
+  background-color: #317f9f;
+  color: #fff;
+  font-size: 35px;
+  padding: 15px 70px;
 }
 
-.BannerInformativo
-{
-    background-color: #365E68;
-    display: flex;
-    justify-content: center;
-    padding: 70px 10%;
+.BannerInformativo {
+  background-color: #365e68;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.titleRounded
-{
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px ;
-    padding: 5px 50px;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: #18A69D;
+.titleRounded {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 5px 50px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #18a69d;
 }
 
-.containerProgramate .titleRounded
-{
-
-    background-color: #95D043 ;
+.containerProgramate .titleRounded {
+  background-color: #95d043;
 }
 
-.BannerInformativo .containerInformate .titleRounded
-{
-    background-color: #18A69D;
+.BannerInformativo .containerInformate .titleRounded {
+  background-color: #18a69d;
 }
 
-
-.containerProgramate{
-    margin-right: 20px;
+.Slider {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 40px;
+  box-shadow: 1px 1px 5px #0000006b;
+}
+.Slider img {
+  width: 100%;
+  max-width: 500px;
 }
 
-.Slider
-{
-    display: inline-block;
-    background-color: #fff;
-    padding: 10px 40px;
-    box-shadow: 1px 1px 5px #0000006b;
-}
-
-.containerInformate {
-    margin-left: 20px;
-}
-
-.CardInfo
-{
-    display: flex;
-    align-items: center;
-    border-radius:5px;
-    background-color: #fff;
-    color: #000;
-    box-shadow: 1px 1px 10px #0000006b;
-    padding: 5px 15px;
-    margin: 10px;
+.CardInfo {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 1px 1px 10px #0000006b;
+  padding: 5px 15px;
+  margin: 10px 0;
 }
 
 .CardInfo p {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .pagInicio hr {
-    border: none;
-    background-color: #18A69D;
-    padding: 3px 0;
+  border: none;
+  background-color: #18a69d;
+  padding: 3px 0;
 }
 
-.BannerInformativo .hrProgramate
-{
-    background-color: #95D043;
+.containerProgramate .hrProgramate {
+  background-color: #95d043;
+  max-width: 580px;
+  margin: 10px auto;
 }
 
-.BannerInformativo .hrInformate
-{
-    background-color: #18A69D;
+.hrInformate {
+  background-color: #18a69d;
+  margin: 10px auto;
 }
 
-.BannerExperiencias
-{
-    background-color: #fff;
-    padding-top:5%;
-    height: 100vh;
-    background-image: url("../Files/camping_background.png");
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
+.BannerExperiencias {
+  background-color: #fff;
+  padding-top: 5%;
+  padding-bottom: 30%;
+  background-image: url("../Assets/camping_background.png");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
 }
 
-.separador-70-percen
-{
-    width: 70%;
+.separador-70-percen {
+  max-width: 580px;
+  margin: 10px auto;
 }
 
-.btn
-{
-    margin-top: 30px;
-    border-radius:7px;
-    background-color: #18A69D;
-    color:#fff;
-    font-size: 20px;
-    padding: 10px 30px;
-
+.btn {
+  margin-top: 30px;
+  border-radius: 7px;
+  background-color: #18a69d;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
 }
-
