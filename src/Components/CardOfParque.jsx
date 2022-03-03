@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CardOfParque(props) {
   return (
@@ -7,13 +8,13 @@ function CardOfParque(props) {
         <img src={props.imgsrc} />
       </div>
       <div className="Content">
-        <a href={props.linkParque} class="text-decoration-none">
+        <Link to={props.linkParque} class="text-decoration-none">
           <h3 className="title p-2 mx-2 mx-md-4 mx-lg-5">{props.title}</h3>{" "}
-        </a>
+        </Link>
         <p className="description">{props.description}</p>
-        <a href={props.linkParque} class="text-decoration-none">
+        <Link to={props.linkParque} class="text-decoration-none">
           <div className="link">Ver más ➕</div>
-        </a>
+        </Link>
       </div>
     </div>
   );

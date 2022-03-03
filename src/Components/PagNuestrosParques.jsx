@@ -10,37 +10,37 @@ var CardsOfParques = [
   <CardOfParque
     imgsrc="https://www.iagua.es/sites/default/files/lago_portada.jpg"
     title="EMBALSE NEUSA"
-    linkParque="nuestros-parques/embalse-neusa"
+    linkParque="/nuestros-parques/embalse-neusa"
   ></CardOfParque>,
 
   <CardOfParque
     imgsrc="https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2018/02/Portada-10.jpg"
     title="GUATAVITA"
-    linkParque="nuestros-parques/guatavita"
+    linkParque="/nuestros-parques/guatavita"
   ></CardOfParque>,
 
   <CardOfParque
     imgsrc="https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg"
     title="RIO NEUSA"
-    linkParque="nuestros-parques/rio-neusa"
+    linkParque="/nuestros-parques/rio-neusa"
   ></CardOfParque>,
 
   <CardOfParque
     imgsrc="https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg"
     title="PUENTE SOPÓ"
-    linkParque="nuestros-parques/puente-sopo"
+    linkParque="/nuestros-parques/puente-sopo"
   ></CardOfParque>,
 
   <CardOfParque
     imgsrc="https://www.car.gov.co/uploads/blog/yZoSgCdjRM.jpeg"
     title="EL HATO"
-    linkParque="nuestros-parques/el-hato"
+    linkParque="/nuestros-parques/el-hato"
   ></CardOfParque>,
 
   <CardOfParque
     imgsrc="https://situr.boyaca.gov.co/wp-content/uploads/2017/05/parque-juanpablo.jpg"
     title="JUAN PABLO II"
-    linkParque="nuestros-parques/juan-pablo-segundo"
+    linkParque="/nuestros-parques/el-hato"
   ></CardOfParque>,
 ];
 
@@ -105,65 +105,63 @@ class PagNuestrosParques extends Component {
         <div className="ContainerRoundedTop"></div>
         {/*Router para cambiar entre paginas*/}
         <div className="container-fluid pb-5 bg-white">
-          <Router>
-            <Route exact path="/nuestros-parques/">
-              <GridParques data={CardsOfParques} />
-            </Route>
+          <Route path="/nuestros-parques/list">
+            <GridParques data={CardsOfParques} />
+          </Route>
 
-            <Route path="/nuestros-parques/embalse-neusa">
-              <InfoParque
-                title={InfoParques[0].title}
-                title2={InfoParques[0].title2}
-                description={InfoParques[0].description}
-                videoSrc={InfoParques[0].videoSrc}
-              />
-            </Route>
+          <Route path="/nuestros-parques/embalse-neusa">
+            <InfoParque
+              title={InfoParques[0].title}
+              title2={InfoParques[0].title2}
+              description={InfoParques[0].description}
+              videoSrc={InfoParques[0].videoSrc}
+            />
+          </Route>
 
-            <Route path="/nuestros-parques/guatavita">
-              <InfoParque
-                title={InfoParques[1].title}
-                title2={InfoParques[1].title2}
-                description={InfoParques[1].description}
-                videoSrc={InfoParques[1].videoSrc}
-              />
-            </Route>
+          <Route path="/nuestros-parques/guatavita">
+            <InfoParque
+              title={InfoParques[1].title}
+              title2={InfoParques[1].title2}
+              description={InfoParques[1].description}
+              videoSrc={InfoParques[1].videoSrc}
+            />
+          </Route>
 
-            <Route path="/nuestros-parques/rio-neusa">
-              <InfoParque
-                title={InfoParques[2].title}
-                title2={InfoParques[2].title2}
-                description={InfoParques[2].description}
-                videoSrc={InfoParques[2].videoSrc}
-              />
-            </Route>
+          <Route path="/nuestros-parques/rio-neusa">
+            <InfoParque
+              title={InfoParques[2].title}
+              title2={InfoParques[2].title2}
+              description={InfoParques[2].description}
+              videoSrc={InfoParques[2].videoSrc}
+            />
+          </Route>
 
-            <Route path="/nuestros-parques/puente-sopo">
-              <InfoParque
-                title={InfoParques[3].title}
-                title2={InfoParques[3].title2}
-                description={InfoParques[3].description}
-                videoSrc={InfoParques[3].videoSrc}
-              />
-            </Route>
+          <Route path="/nuestros-parques/puente-sopo">
+            <InfoParque
+              title={InfoParques[3].title}
+              title2={InfoParques[3].title2}
+              description={InfoParques[3].description}
+              videoSrc={InfoParques[3].videoSrc}
+            />
+          </Route>
 
-            <Route path="/nuestros-parques/el-hato">
-              <InfoParque
-                title={InfoParques[4].title}
-                title2={InfoParques[4].title2}
-                description={InfoParques[4].description}
-                videoSrc={InfoParques[4].videoSrc}
-              />
-            </Route>
+          <Route path="/nuestros-parques/el-hato">
+            <InfoParque
+              title={InfoParques[4].title}
+              title2={InfoParques[4].title2}
+              description={InfoParques[4].description}
+              videoSrc={InfoParques[4].videoSrc}
+            />
+          </Route>
 
-            <Route path="/nuestros-parques/juan-pablo-segundo">
-              <InfoParque
-                title={InfoParques[5].title}
-                title2={InfoParques[5].title2}
-                description={InfoParques[5].description}
-                videoSrc={InfoParques[5].videoSrc}
-              />
-            </Route>
-          </Router>
+          <Route path="/nuestros-parques/juan-pablo-segundo">
+            <InfoParque
+              title={InfoParques[5].title}
+              title2={InfoParques[5].title2}
+              description={InfoParques[5].description}
+              videoSrc={InfoParques[5].videoSrc}
+            />
+          </Route>
         </div>
       </div>
     );
