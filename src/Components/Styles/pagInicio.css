@@ -29,7 +29,7 @@
   border-radius: 7px;
   background-color: #317f9f;
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
   padding: 15px 70px;
 }
 
@@ -109,7 +109,7 @@
   background-position: 0% 100%;
 }
 
-.btn {
+.btn-car {
   margin-top: 30px;
   border-radius: 7px;
   background-color: #18a69d;

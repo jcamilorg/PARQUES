@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import GridParques from "./GridParques";
-import "./Styles/nuestrosParques.css";
 
 var links = [
   "https://bogota.gov.co/sites/default/files/styles/1050px/public/2019-06/parque_engativa_2.jpg",
@@ -10,7 +8,7 @@ var links = [
 
 function IconoLink(props) {
   return (
-    <div className="d-flex flex-column align-items-center col-2 p-2 my-3 border-end border-start border-2">
+    <div className="d-flex flex-column align-items-center col-6 col-sm-4 col-md-2 p-2 my-3 border-end border-start border-2">
       <img src={props.imgsrc} width="70px" height="50px" alt="..." />
       {props.description}
     </div>

@@ -5,3 +5,10 @@
   background-repeat: repeat;
   background-size: 120%;
 }
+.hover-orange {
+  background-color: #526a1e;
+}
+
+.hover-orange:hover {
+  filter: sepia(100%) saturate(300%);
+}

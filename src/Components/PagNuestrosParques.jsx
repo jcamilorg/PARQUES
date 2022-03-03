@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import GridParques from "./GridParques";
 import CardOfParque from "./CardOfParque";
-import "./Styles/nuestrosParques.css";
+import "./Styles/pagNuestrosParques.css";
 // Components
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import InfoParque from "./InfoParque";
@@ -95,15 +95,16 @@ var InfoParques = [
   },
 ];
 
-class NuestrosParques extends Component {
+class PagNuestrosParques extends Component {
   render() {
     return (
       <div className="NuestrosParques">
         <span className="mainTitle">
           Nuestros <strong>parques</strong>
         </span>
+        <div className="ContainerRoundedTop"></div>
         {/*Router para cambiar entre paginas*/}
-        <div className="ContainerGridParques">
+        <div className="container-fluid pb-5 bg-white">
           <Router>
             <Route exact path="/nuestros-parques/">
               <GridParques data={CardsOfParques} />
@@ -169,4 +170,4 @@ class NuestrosParques extends Component {
   }
 }
 
-export default NuestrosParques;
+export default PagNuestrosParques;

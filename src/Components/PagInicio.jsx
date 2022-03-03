@@ -137,7 +137,7 @@ class BannerExperiencias extends Component {
         </div>
 
         <br />
-        <button className="btn">Contar mi experiencia</button>
+        <button className="btn-car">Contar mi experiencia</button>
       </div>
     );
   }

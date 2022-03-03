@@ -16,7 +16,7 @@
   margin-left: 5%;
 }
 
-.gridParques .CardOfParque {
+.CardOfParque {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,7 +27,7 @@
   box-shadow: 1px 1px 20px #0000009a;
 }
 
-.gridParques .CardOfParque img {
+.CardOfParque img {
   width: 100%;
   height: 200px;
 }
@@ -65,4 +65,11 @@
   border: none;
   background-color: #18a69d;
   padding: 3px 0;
+}
+
+.ContainerRoundedTop {
+  margin-top: 50px;
+  padding-top: 100px;
+  background-color: #fff;
+  border-radius: 50% 50% 0% 0;
 }

@@ -6,14 +6,6 @@
   background-size: 120%;
 }
 
-.ContainerGridParques {
-  margin-top: 50px;
-  padding-top: 80px;
-  padding-bottom: 100px;
-  background-color: #fff;
-  border-radius: 30% 30% 0% 0;
-}
-
 .NuestrosParques .gridParques .CardOfParque {
   box-shadow: none;
 }
