@@ -105,7 +105,7 @@ class PagNuestrosParques extends Component {
         <div className="ContainerRoundedTop"></div>
         {/*Router para cambiar entre paginas*/}
         <div className="container-fluid pb-5 bg-white">
-          <Route path="/nuestros-parques/list">
+          <Route exact path="/nuestros-parques">
             <GridParques data={CardsOfParques} />
           </Route>
 

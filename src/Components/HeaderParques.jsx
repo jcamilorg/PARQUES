@@ -43,7 +43,7 @@ export default function HeaderParques() {
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/nuestros-parques/list">Parques</Link>
+                <Link to="/nuestros-parques">Parques</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 

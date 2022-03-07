@@ -16,6 +16,8 @@
   border-radius: 20px;
   color: #fff;
   background-color: #008c2a;
+  background-image: url(../../../public/Assets/fondos/bg-Fotter.png);
+  background-size: cover;
   font-size: 35px;
 }
 
