@@ -61,6 +61,8 @@
   margin-top: -5px;
 }
 
+/*Estilos generales*/
+
 .separador-car {
   border: none;
   background-color: #18a69d;
@@ -73,3 +75,44 @@
   background-color: #fff;
   border-radius: 50% 50% 0% 0;
 }
+/*Colores de fondo y texto*/
+/*fondo*/
+.bg-dark-blue {
+  background-color: #003333;
+}
+
+.bg-green {
+  background-color: #70a116;
+}
+
+.bg-acua {
+  background-color: #00a19c;
+}
+/*Texto*/
+.bg-l-green {
+  background-color: #66cc00;
+}
+
+.text-dark-blue {
+  color: #003333;
+}
+
+.text-green {
+  color: #70a116;
+}
+
+.text-acua {
+  color: #00a19c;
+}
+
+.text-l-green {
+  color: #66cc00;
+}
+
+.text-dark-acua {
+  color: #325860;
+}
+
+/*Estilos para tabla de la pagina Para tener encuenta*/
+
+/*--*/

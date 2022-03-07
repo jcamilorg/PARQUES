@@ -40,7 +40,7 @@ var CardsOfParques = [
   <CardOfParque
     imgsrc="https://situr.boyaca.gov.co/wp-content/uploads/2017/05/parque-juanpablo.jpg"
     title="JUAN PABLO II"
-    linkParque="/nuestros-parques/el-hato"
+    linkParque="/nuestros-parques/juan-pablo-segundo"
   ></CardOfParque>,
 ];
 
