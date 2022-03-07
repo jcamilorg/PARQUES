@@ -3,7 +3,7 @@ import "./Styles/pagQueHacer.css";
 
 function CardQueHacer(props) {
   return (
-    <div className="d-flex flex-column p-2 h-100  justify-content-center align-items-start shadow-sm hover-orange ">
+    <div className="d-flex flex-column p-2 h-100  justify-content-center align-items-start shadow-sm hover-orange text-white">
       <p
         style={{
           textShadow: "1px 1px 2px #000",

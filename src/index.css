@@ -8,7 +8,7 @@ body {
   color: #003333;
   text-align: center;
 }
-
+/*Cambiar el scrollbar*/
 body::-webkit-scrollbar {
   width: 8px;
   height: 8px;

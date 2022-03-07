@@ -116,3 +116,8 @@
 /*Estilos para tabla de la pagina Para tener encuenta*/
 
 /*--*/
+
+/*Estilos para el acordeon de de la pagina preguntas frecuentes*/
+.collapsed {
+  color: #fff;
+}

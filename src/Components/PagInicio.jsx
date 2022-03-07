@@ -87,7 +87,7 @@ function CardInfo(props) {
 class BannerInformativo extends Component {
   render() {
     return (
-      <div className="BannerInformativo row justify-content-center container-fluid py-5">
+      <div className="BannerInformativo row justify-content-center container-fluid py-5 text-white">
         <div className="containerProgramate col-11 col-lg-5 m-3">
           <span className="titleRounded">¡Prográmate!</span>
           <hr className="hrProgramate" />
@@ -124,7 +124,7 @@ class BannerInformativo extends Component {
 class BannerExperiencias extends Component {
   render() {
     return (
-      <div className="BannerExperiencias container-fluid">
+      <div className="BannerExperiencias container-fluid  text-white">
         <span className="titleRounded">
           Experiencias de nuestros visitantes
         </span>

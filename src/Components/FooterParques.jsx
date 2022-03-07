@@ -24,8 +24,8 @@ export default function FooterParques() {
           <div class="VerticalLine d-none d-lg-block"></div>
           <hr className="d-lg-none my-4" />
           <div className="col-lg-4 col-md-12">
-            <div class="RedesCAR">
-              <h4>Nuestras redes</h4>
+            <div className="RedesCAR">
+              <h4 className="text-white">Nuestras redes</h4>
               <div class="ContainerImgRedes">
                 <img
                   height="50px"
