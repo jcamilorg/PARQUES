@@ -19,8 +19,8 @@ export default function HeaderParques() {
             <a href="#">
               <img
                 className="ContainerImgHeader"
-                src="https://parques.car.gov.co/Content/images/LOGO_CAR_CUATRICROMIA.png"
-                width="150px"
+                src="./Assets/logos/Logo_parques.svg"
+                width="180px"
               />
               <div className="SpaceContainerImgHeader"></div>
             </a>

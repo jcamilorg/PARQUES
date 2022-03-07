@@ -1,15 +1,8 @@
 footer {
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
   background-color: #009933;
+  background-image: url("../../../public/Assets/fondos/bg-Fotter.png");
+  background-size: cover;
   padding: 20px 0 20px 0;
-}
-
-.InfoContactCar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .InfoFooter {
@@ -19,36 +12,9 @@ footer {
   margin-left: 10px;
 }
 
-.RedesCAR {
-  padding: 0 5%;
-  text-align: center;
-}
-
-.RedesCAR h4 {
-  margin: 0;
-  margin-bottom: 30px;
-  font-size: 24px;
-  font-weight: 450;
-}
-.RedesCAR img {
-  margin-left: 7px;
-  margin-right: 7px;
-  box-shadow: 2px 2px 20px #0000009a;
-}
-
 .VerticalLine {
   border: none;
   border-left: 2px solid #fff;
   height: 150px;
   width: 1px;
-}
-
-.ContainerImgRedes {
-  display: flex;
-  justify-content: space-between;
-}
-
-.ContainerImgLogoCAR {
-  display: flex;
-  justify-content: center;
 }

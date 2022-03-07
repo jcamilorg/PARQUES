@@ -22,10 +22,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: right;
-  background-image: url("../Assets/bg-Header.png");
-  background-size: 40%;
-  opacity: 25%;
-  filter: grayscale(0.9);
+  background-image: url("../../../public/Assets/fondos/bg-Header.png");
+  background-size: cover;
+  background-repeat: repeat-x;
   z-index: -1;
 }
 
@@ -44,15 +43,15 @@ header {
   padding-left: 15%;
   padding-right: 15%;
   background: #8da73c;
+  background-image: url("../../../public/Assets/fondos/Header.svg");
+  background-repeat: repeat-x;
 }
 
 .ContainerImgHeader {
   position: absolute;
-  top: -70px;
+  top: -90px;
   align-items: center;
   overflow: visible;
-  background-color: #fff;
-  border-radius: 40%;
 }
 
 .SpaceContainerImgHeader {
