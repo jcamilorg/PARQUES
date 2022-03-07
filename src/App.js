@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./index.css";
 import "./App.css";
 //Router
@@ -18,8 +18,8 @@ import PagContactanos from "./Components/PagContactanos";
 export default function App() {
   return (
     <div className="container-fluid bg-white page-dos">
-      <HeaderParques />
       <Router>
+        <HeaderParques />
         <Route exact path="/">
           <PagInicio />
         </Route>

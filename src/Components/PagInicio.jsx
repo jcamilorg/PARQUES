@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
 import GridParques from "./GridParques";
 import CardOfParque from "./CardOfParque";
@@ -5,6 +6,7 @@ import "./Styles/pagInicio.css";
 
 var CardsOfParques = [
   <CardOfParque
+    key={1}
     imgsrc="https://www.iagua.es/sites/default/files/lago_portada.jpg"
     title="EMBALSE NEUSA"
     description={[
@@ -15,6 +17,7 @@ var CardsOfParques = [
   ></CardOfParque>,
 
   <CardOfParque
+    key={2}
     imgsrc="https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2018/02/Portada-10.jpg"
     title="GUATAVITA"
     description={[
@@ -25,6 +28,7 @@ var CardsOfParques = [
   ></CardOfParque>,
 
   <CardOfParque
+    key={3}
     imgsrc="https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg"
     title="RIO NEUSA"
     description={[
@@ -34,6 +38,7 @@ var CardsOfParques = [
   ></CardOfParque>,
 
   <CardOfParque
+    key={4}
     imgsrc="https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg"
     title="PUENTE SOPÓ"
     description={[
@@ -43,6 +48,7 @@ var CardsOfParques = [
   ></CardOfParque>,
 
   <CardOfParque
+    key={5}
     imgsrc="https://www.car.gov.co/uploads/blog/yZoSgCdjRM.jpeg"
     title="EL HATO"
     description={[
@@ -52,6 +58,7 @@ var CardsOfParques = [
   ></CardOfParque>,
 
   <CardOfParque
+    key={6}
     imgsrc="https://situr.boyaca.gov.co/wp-content/uploads/2017/05/parque-juanpablo.jpg"
     title="JUAN PABLO II"
     description={[

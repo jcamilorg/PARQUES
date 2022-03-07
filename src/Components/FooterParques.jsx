@@ -1,8 +1,10 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Styles/footerStyle.css";
 
 export default function FooterParques() {
   return (
+    <>
     <footer>
       <div className="container">
         <div className="row">
@@ -53,16 +55,13 @@ export default function FooterParques() {
           <hr className="d-lg-none my-4" />
           <div className="col-lg-2 col-md-12">
             <div class="ContainerImgLogoCAR">
-              <img
-                height="100px"
-                width="100px"
-                src="https://sidcar.car.gov.co/Diseno/Imagenes/Principal/LogoCAR.png"
-              />
+              <img height="100px" width="100px" src="https://sidcar.car.gov.co/Diseno/Imagenes/Principal/LogoCAR.png"/>
             </div>
           </div>
           <hr className="d-lg-none my-4" />
         </div>
       </div>
-    </footer>
+      </footer>
+    </>
   );
 }

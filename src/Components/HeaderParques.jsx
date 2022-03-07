@@ -1,5 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Styles/headerStyle.css";
+
+import { Link } from "react-router-dom";
 
 export default function HeaderParques() {
   return (
@@ -37,36 +40,37 @@ export default function HeaderParques() {
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav mx-auto ">
-                <a href="/">Inicio</a>
+                <Link to="/">Inicio</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/nuestros-parques">Parques</a>
+                <Link to="/nuestros-parques">Parques</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/que-hacer">Qué hacer</a>
+                <Link to="/que-hacer">Qué hacer</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/horarios-y-tarifas">Horarios y tarifas</a>
+                <Link to="/horarios-y-tarifas">Horarios y tarifas</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/para-tener-encuenta">Para tener en cuenta</a>
+                <Link to="/para-tener-encuenta">Para tener en cuenta</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/preguntas-frecuentes">Pregutas frecuentes</a>
+                <Link to="/preguntas-frecuentes">Pregutas frecuentes</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/reservas">Reservas</a>
+                <Link to="/reservas">Reservas</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <a href="/contactanos">Contáctanos</a>
+                <Link to="/contactanos">Contáctanos</Link>
                 <hr className="d-lg-none p-0 m-0" />
+
               </div>
             </div>
           </div>
