@@ -13,7 +13,7 @@ function CardOfParque(props) {
           {props.title}
         </h3>
       </Link>
-      <div className="ImgColibri">
+      <div className="ImgColibri d-none d-sm-none d-md-inline">
         <img
           width="70px"
           src={(require = "./Assets/fondos/Colibri.png")}

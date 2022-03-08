@@ -62,12 +62,11 @@
 .Slider {
   display: inline-block;
   background-color: #fff;
-  padding: 10px 40px;
+  padding: 10px 30px;
   box-shadow: 1px 1px 5px #0000006b;
 }
 .Slider img {
   width: 100%;
-  max-width: 500px;
 }
 
 .CardInfo {

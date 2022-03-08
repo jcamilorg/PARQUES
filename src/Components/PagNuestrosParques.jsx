@@ -46,6 +46,20 @@ var CardsOfParques = [
 
 var InfoParques = [
   {
+    SliderImages: [
+      <img
+        className="img-fluid"
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+      />,
+      <img
+        className="img-fluid"
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+      />,
+      <img
+        className="img-fluid"
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+      />,
+    ],
     title: "EMBALSE NEUSA",
     title2: "Parque Embalse del Neusa",
     description:
@@ -53,6 +67,11 @@ var InfoParques = [
     videoSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
   },
   {
+    SliderImages: [
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+    ],
     title: "GUATAVITA",
     title2: "Parque Laguna del Cacique Guatavita",
     description:
@@ -62,6 +81,11 @@ var InfoParques = [
   },
 
   {
+    SliderImages: [
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+    ],
     title: "RÍO NEUSA",
     title2: "Parque Río Neusa",
     description:
@@ -70,6 +94,11 @@ var InfoParques = [
   },
 
   {
+    SliderImages: [
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+    ],
     title: "PUENTE SOPÓ",
     title2: "Parque Puente Sopó",
     description:
@@ -78,6 +107,11 @@ var InfoParques = [
   },
 
   {
+    SliderImages: [
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+    ],
     title: "EL HATO",
     title2: "Parque Embalse el Hato",
     description:
@@ -86,6 +120,11 @@ var InfoParques = [
   },
 
   {
+    SliderImages: [
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
+      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+    ],
     title: "JUAN PABLO II",
     title2: "Parque Juan Pablo II",
     description:
@@ -111,6 +150,7 @@ class PagNuestrosParques extends Component {
 
           <Route path="/nuestros-parques/embalse-neusa">
             <InfoParque
+              sliderImages={InfoParques[0].SliderImages}
               title={InfoParques[0].title}
               title2={InfoParques[0].title2}
               description={InfoParques[0].description}
@@ -120,6 +160,7 @@ class PagNuestrosParques extends Component {
 
           <Route path="/nuestros-parques/guatavita">
             <InfoParque
+              sliderImages={InfoParques[0].SliderImages}
               title={InfoParques[1].title}
               title2={InfoParques[1].title2}
               description={InfoParques[1].description}
@@ -129,6 +170,7 @@ class PagNuestrosParques extends Component {
 
           <Route path="/nuestros-parques/rio-neusa">
             <InfoParque
+              sliderImages={InfoParques[0].SliderImages}
               title={InfoParques[2].title}
               title2={InfoParques[2].title2}
               description={InfoParques[2].description}
@@ -138,6 +180,7 @@ class PagNuestrosParques extends Component {
 
           <Route path="/nuestros-parques/puente-sopo">
             <InfoParque
+              sliderImages={InfoParques[0].SliderImages}
               title={InfoParques[3].title}
               title2={InfoParques[3].title2}
               description={InfoParques[3].description}
@@ -147,6 +190,7 @@ class PagNuestrosParques extends Component {
 
           <Route path="/nuestros-parques/el-hato">
             <InfoParque
+              sliderImages={InfoParques[0].SliderImages}
               title={InfoParques[4].title}
               title2={InfoParques[4].title2}
               description={InfoParques[4].description}
@@ -156,6 +200,7 @@ class PagNuestrosParques extends Component {
 
           <Route path="/nuestros-parques/juan-pablo-segundo">
             <InfoParque
+              sliderImages={InfoParques[0].SliderImages}
               title={InfoParques[5].title}
               title2={InfoParques[5].title2}
               description={InfoParques[5].description}

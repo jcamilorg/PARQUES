@@ -52,7 +52,7 @@
 }
 
 .CardOfParque .container-titulo {
-  background-image: url("../public/Assets/fondos/Fondo_verde_boton.png");
+  background-image: url("../public/Assets/fondos/Fondo_verde_boton.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }

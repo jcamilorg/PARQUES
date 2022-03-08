@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import GridParques from "./GridParques";
 import CardOfParque from "./CardOfParque";
 import "./Styles/pagInicio.css";
+import Slider from "./Utils/Slider";
+import { Link } from "react-router-dom";
 
 var CardsOfParques = [
   <CardOfParque
@@ -69,7 +71,10 @@ class BannerParques extends Component {
           <span>Destinos Maravillosos para el goce de la naturaleza</span>
         </div>
         <GridParques data={CardsOfParques} />
-        <button className="btnReservas">💻 RESERVAS</button>
+        <Link to="/reservas">
+          {" "}
+          <button className="btnReservas">💻 RESERVAS</button>
+        </Link>
       </div>
     );
   }
@@ -84,6 +89,11 @@ function CardInfo(props) {
   );
 }
 
+var imgSliderInformate = [
+  <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
+  <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
+  <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+];
 class BannerInformativo extends Component {
   render() {
     return (
@@ -92,7 +102,7 @@ class BannerInformativo extends Component {
           <span className="titleRounded">¡Prográmate!</span>
           <hr className="hrProgramate" />
           <div className="Slider">
-            <img src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg" />
+            <Slider data={imgSliderInformate} id="slider-banner-informate" />
           </div>
         </div>
 
@@ -121,6 +131,26 @@ class BannerInformativo extends Component {
   }
 }
 
+var comentariosExperiencias = [
+  <iframe
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCAR.Cundi%2Fposts%2F5608428509186757&show_text=true&width=500"
+    width="500"
+    height="654"
+    scrolling="no"
+    frameborder="0"
+    allowfullscreen="true"
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  ></iframe>,
+  <iframe
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCAR.Cundi%2Fposts%2F5610234549006153&show_text=true&width=500"
+    width="500"
+    height="570"
+    scrolling="no"
+    frameborder="0"
+    allowfullscreen="true"
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  ></iframe>,
+];
 class BannerExperiencias extends Component {
   render() {
     return (
@@ -129,10 +159,13 @@ class BannerExperiencias extends Component {
           Experiencias de nuestros visitantes
         </span>
         <div></div>
-        <div className="d-inline-block">
-          <hr className="separador-car" />
-          <div className="Slider">
-            <img src="https://www.car.gov.co/uploads/blog/cyiAeOmdFc.jpeg" />
+        <div className="d-flex flex-column align-items-center">
+          <hr className="separador-car w-50" />
+          <div className="Slider w-50">
+            <Slider
+              data={comentariosExperiencias}
+              id="slider-banner-experiencias"
+            />
           </div>
         </div>
 

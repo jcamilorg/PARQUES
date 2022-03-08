@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Slider from "./Utils/Slider";
 
 var InfoParques = [
   {
@@ -52,6 +53,45 @@ var InfoParques = [
   },
 ];
 
+var CardsOfhorario = [
+  <CardOfHorario
+    title={InfoParques[0].title}
+    horario={InfoParques[0].horario}
+    description={InfoParques[0].description}
+    imgSrc={InfoParques[0].imgSrc}
+  />,
+  <CardOfHorario
+    title={InfoParques[1].title}
+    horario={InfoParques[1].horario}
+    description={InfoParques[1].description}
+    imgSrc={InfoParques[1].imgSrc}
+  />,
+  <CardOfHorario
+    title={InfoParques[2].title}
+    horario={InfoParques[2].horario}
+    description={InfoParques[2].description}
+    imgSrc={InfoParques[2].imgSrc}
+  />,
+  <CardOfHorario
+    title={InfoParques[3].title}
+    horario={InfoParques[3].horario}
+    description={InfoParques[3].description}
+    imgSrc={InfoParques[3].imgSrc}
+  />,
+  <CardOfHorario
+    title={InfoParques[4].title}
+    horario={InfoParques[4].horario}
+    description={InfoParques[4].description}
+    imgSrc={InfoParques[4].imgSrc}
+  />,
+  <CardOfHorario
+    title={InfoParques[5].title}
+    horario={InfoParques[5].horario}
+    description={InfoParques[5].description}
+    imgSrc={InfoParques[5].imgSrc}
+  />,
+];
+
 function CardOfHorario(props) {
   return (
     <div className="container d-flex flex-column align-items-center border shadow-lg rounded-3">
@@ -68,149 +108,6 @@ function CardOfHorario(props) {
     </div>
   );
 }
-function Carrousel() {
-  return (
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide carousel-dark"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="4"
-          aria-label="Slide 5"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="5"
-          aria-label="Slide 6"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active ">
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-5">
-              <CardOfHorario
-                title={InfoParques[0].title}
-                horario={InfoParques[0].horario}
-                description={InfoParques[0].description}
-                imgSrc={InfoParques[0].imgSrc}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-5">
-              <CardOfHorario
-                title={InfoParques[1].title}
-                horario={InfoParques[1].horario}
-                description={InfoParques[1].description}
-                imgSrc={InfoParques[1].imgSrc}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-5">
-              <CardOfHorario
-                title={InfoParques[2].title}
-                horario={InfoParques[2].horario}
-                description={InfoParques[2].description}
-                imgSrc={InfoParques[2].imgSrc}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-5">
-              <CardOfHorario
-                title={InfoParques[3].title}
-                horario={InfoParques[3].horario}
-                description={InfoParques[3].description}
-                imgSrc={InfoParques[3].imgSrc}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-5">
-              <CardOfHorario
-                title={InfoParques[4].title}
-                horario={InfoParques[4].horario}
-                description={InfoParques[4].description}
-                imgSrc={InfoParques[4].imgSrc}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-5">
-              <CardOfHorario
-                title={InfoParques[5].title}
-                horario={InfoParques[5].horario}
-                description={InfoParques[5].description}
-                imgSrc={InfoParques[5].imgSrc}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev "
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next "
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  );
-}
-
 export default class PagHorariosTarifas extends Component {
   render() {
     return (
@@ -226,8 +123,8 @@ export default class PagHorariosTarifas extends Component {
             permite el ingreso a ninguno de nuestros parques.
           </p>
           <div className="row justify-content-center p-5">
-            <div className="col-10  pb-5 ">
-              <Carrousel />
+            <div className="col-10 col-md-8 col-lg-5  pb-5 ">
+              <Slider data={CardsOfhorario} id="slider_Horarios" />
             </div>
           </div>
         </div>
