@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Styles/headerStyle.css";
-
 import { Link } from "react-router-dom";
 
 export default function HeaderParques() {
@@ -10,6 +9,7 @@ export default function HeaderParques() {
       <header className="position-absolute">
         <div id="ContainerImgTopHeader">
           <input
+            className="form-control"
             type="text"
             placeholder="(Desarrollo)Buscar en esta pagina 🔎"
           />
@@ -17,14 +17,14 @@ export default function HeaderParques() {
 
         <nav className="navbar navbar-expand-lg navbar-light navbarCar text-start">
           <div className="container justify-content-center d-flex">
-            <a href="#">
+            <Link to="/">
               <img
                 className="ContainerImgHeader"
                 src="https://parques.car.gov.co/Content/images/LOGO_CAR_CUATRICROMIA.png"
                 width="150px"
               />
               <div className="SpaceContainerImgHeader"></div>
-            </a>
+            </Link>
 
             <button
               class="navbar-toggler m-2 position-absolute top-0 end-0"
