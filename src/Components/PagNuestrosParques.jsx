@@ -5,137 +5,21 @@ import "./Styles/pagNuestrosParques.css";
 // Components
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import InfoParque from "./InfoParque";
-
-var CardsOfParques = [
-  <CardOfParque
-    imgsrc="https://www.iagua.es/sites/default/files/lago_portada.jpg"
-    title="EMBALSE NEUSA"
-    linkParque="/nuestros-parques/embalse-neusa"
-  ></CardOfParque>,
-
-  <CardOfParque
-    imgsrc="https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2018/02/Portada-10.jpg"
-    title="GUATAVITA"
-    linkParque="/nuestros-parques/guatavita"
-  ></CardOfParque>,
-
-  <CardOfParque
-    imgsrc="https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg"
-    title="RIO NEUSA"
-    linkParque="/nuestros-parques/rio-neusa"
-  ></CardOfParque>,
-
-  <CardOfParque
-    imgsrc="https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg"
-    title="PUENTE SOPÓ"
-    linkParque="/nuestros-parques/puente-sopo"
-  ></CardOfParque>,
-
-  <CardOfParque
-    imgsrc="https://www.car.gov.co/uploads/blog/yZoSgCdjRM.jpeg"
-    title="EL HATO"
-    linkParque="/nuestros-parques/el-hato"
-  ></CardOfParque>,
-
-  <CardOfParque
-    imgsrc="https://situr.boyaca.gov.co/wp-content/uploads/2017/05/parque-juanpablo.jpg"
-    title="JUAN PABLO II"
-    linkParque="/nuestros-parques/juan-pablo-segundo"
-  ></CardOfParque>,
-];
-
-var InfoParques = [
-  {
-    SliderImages: [
-      <img
-        className="img-fluid"
-        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
-      />,
-      <img
-        className="img-fluid"
-        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
-      />,
-      <img
-        className="img-fluid"
-        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
-      />,
-    ],
-    title: "EMBALSE NEUSA",
-    title2: "Parque Embalse del Neusa",
-    description:
-      "Sus enormes y magníficos bosques son el escenario perfecto para ese camping con amigos que siempre has planeado. \n ¿No quieres preocuparte por nada? ¡Déjate consentir siendo huésped del hotel El Mirador o alquila una de nuestras cálidas y confortables cabañas y siéntete como en casa! Cierra tu visita con broche de oro visitando tres de los mejores restaurantes típicos de la región",
-    videoSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
-  },
-  {
-    SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
-    ],
-    title: "GUATAVITA",
-    title2: "Parque Laguna del Cacique Guatavita",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    videoSrc:
-      "https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2018/02/Portada-10.jpg",
-  },
-
-  {
-    SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
-    ],
-    title: "RÍO NEUSA",
-    title2: "Parque Río Neusa",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    videoSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
-  },
-
-  {
-    SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
-    ],
-    title: "PUENTE SOPÓ",
-    title2: "Parque Puente Sopó",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    videoSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
-  },
-
-  {
-    SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
-    ],
-    title: "EL HATO",
-    title2: "Parque Embalse el Hato",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    videoSrc: "https://www.car.gov.co/uploads/blog/yZoSgCdjRM.jpeg",
-  },
-
-  {
-    SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
-    ],
-    title: "JUAN PABLO II",
-    title2: "Parque Juan Pablo II",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    videoSrc:
-      "https://situr.boyaca.gov.co/wp-content/uploads/2017/05/parque-juanpablo.jpg",
-  },
-];
+//informacion parques
+import InfoParques from "./Utils/InformacionParques";
 
 class PagNuestrosParques extends Component {
   render() {
+    const CardsOfParques = InfoParques.map((item) => {
+      return (
+        <CardOfParque
+          imgsrc={item.imgSrc}
+          title={item.title}
+          linkParque={item.link}
+        ></CardOfParque>
+      );
+    });
+
     return (
       <div className="NuestrosParques">
         <span className="mainTitle">

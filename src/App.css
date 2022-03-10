@@ -38,23 +38,25 @@
 
 .ImgColibri img {
   position: relative;
-  top: 150px;
-  left: 20px;
+  top: -30px;
+  left: -90px;
 }
 
 .title {
   position: relative;
-  top: -20px;
   border-radius: 10px;
   color: #fff;
   background-color: #00aeb3;
   font-size: 18px;
-}
-
-.CardOfParque .container-titulo {
   background-image: url("../public/Assets/fondos/Fondo_verde_boton.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 190px;
+}
+
+.CardOfParque .top-menos-20px {
+  position: relative;
+  top: -20px;
 }
 
 .gridParques .CardOfParque .Content {

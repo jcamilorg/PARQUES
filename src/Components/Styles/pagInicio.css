@@ -84,10 +84,11 @@
   margin-left: 10px;
 }
 
-.pagInicio hr {
+hr {
   border: none;
   background-color: #18a69d;
   padding: 3px 0;
+  opacity: 1;
 }
 
 .containerProgramate .hrProgramate {
@@ -105,7 +106,8 @@
   background-color: #fff;
   padding-top: 5%;
   padding-bottom: 30%;
-  background-image: url("../Assets/camping_background.png");
+  background-image: url("../../../public/Assets/fondos/imagen\ fondo\ opiniones.png");
+  background-size: 105%;
   background-repeat: no-repeat;
   background-position: 0% 100%;
 }

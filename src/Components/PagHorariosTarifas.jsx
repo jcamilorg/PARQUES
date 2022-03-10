@@ -1,103 +1,24 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Slider from "./Utils/Slider";
+import Titulo from "./Utils/BotonNombreParques";
+import InfoParques from "./Utils/InformacionParques";
 
-var InfoParques = [
-  {
-    title: "EMBALSE NEUSA",
-    horario: "6:30 a.m. a 4:30 p.m.",
-    description:
-      "Alojamiento en cabañas: Ingreso (check in): 3:00 p.m. Salida (check out): 1:00 p.m. Horario para camping: Martes a jueves: 6:30 a.m. a 4:30 p.m. Viernes, sábado y día anterior a festivo: 6:30 a.m. a 10:00 p.m.",
-    imgSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
-  },
-  {
-    title: "GUATAVITA",
-    horario: "9:00 am. a 4:00 pm.",
-    description:
-      "Horario de funcionamiento del parque La Reserva Forestal Protectora Laguna del Cacique de Guatavita y Cuchilla de Peña Blanca",
-    imgSrc:
-      "https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2018/02/Portada-10.jpg",
-  },
-
-  {
-    title: "RÍO NEUSA",
-    horario: "8:00 a.m. a 5:00 p.m.",
-    description:
-      "Alojamiento en cabañas: Ingreso (check in): 3:00 p.m. Salida (check out): 1:00 p.m. Horario para camping: Martes a jueves: 8:00 a.m. a 5:00 p.m. Viernes, sábado y día anterior a festivo: 8:00 a.m. a 8:00 p.m.",
-    imgSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
-  },
-
-  {
-    title: "PUENTE SOPÓ",
-    horario: "8:00 a.m. a 5:00 p.m.",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    imgSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
-  },
-
-  {
-    title: "EL HATO",
-    horario: "8:00 a.m. a 5:00 p.m.",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    imgSrc: "https://www.car.gov.co/uploads/blog/yZoSgCdjRM.jpeg",
-  },
-
-  {
-    title: "JUAN PABLO II",
-    horario: "8:00 a.m. a 5:00 p.m.",
-    description:
-      "Cuna de leyendas e historias increíbles que podrás conocer mientras recorres sus senderos empedrados a 3.100 msnm.\n Hermosas artesanías, excelentes fotografías y los mejores relatos son algunos de los regalos que este legado de la cultura Muisca tiene para ti ¿Qué estás esperando para visitarla?",
-    imgSrc:
-      "https://situr.boyaca.gov.co/wp-content/uploads/2017/05/parque-juanpablo.jpg",
-  },
-];
-
-var CardsOfhorario = [
-  <CardOfHorario
-    title={InfoParques[0].title}
-    horario={InfoParques[0].horario}
-    description={InfoParques[0].description}
-    imgSrc={InfoParques[0].imgSrc}
-  />,
-  <CardOfHorario
-    title={InfoParques[1].title}
-    horario={InfoParques[1].horario}
-    description={InfoParques[1].description}
-    imgSrc={InfoParques[1].imgSrc}
-  />,
-  <CardOfHorario
-    title={InfoParques[2].title}
-    horario={InfoParques[2].horario}
-    description={InfoParques[2].description}
-    imgSrc={InfoParques[2].imgSrc}
-  />,
-  <CardOfHorario
-    title={InfoParques[3].title}
-    horario={InfoParques[3].horario}
-    description={InfoParques[3].description}
-    imgSrc={InfoParques[3].imgSrc}
-  />,
-  <CardOfHorario
-    title={InfoParques[4].title}
-    horario={InfoParques[4].horario}
-    description={InfoParques[4].description}
-    imgSrc={InfoParques[4].imgSrc}
-  />,
-  <CardOfHorario
-    title={InfoParques[5].title}
-    horario={InfoParques[5].horario}
-    description={InfoParques[5].description}
-    imgSrc={InfoParques[5].imgSrc}
-  />,
-];
+const CardsOfhorario = InfoParques.map((item) => {
+  return (
+    <CardOfHorario
+      title={item.title}
+      horario={item.horario}
+      description={item.horario_description}
+      imgSrc={item.imgSrc}
+    />
+  );
+});
 
 function CardOfHorario(props) {
   return (
     <div className="container d-flex flex-column align-items-center border shadow-lg rounded-3">
-      <button className="btn btn-secondary mt-4 mb-3 fs-5 bg-acua">
-        {props.title}
-      </button>
+      <Titulo title={props.title} addClass=" my-4" />
       <img className="w-100" height="250px" src={props.imgSrc} />
       <i className="pt-4 pb-3  fs-2 fa-regular fa-clock"></i>
       <b>{props.horario}</b>

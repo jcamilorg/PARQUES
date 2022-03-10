@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "./Utils/Slider";
+import Titulo from "./Utils/BotonNombreParques";
 
 var links = [
   "https://bogota.gov.co/sites/default/files/styles/1050px/public/2019-06/parque_engativa_2.jpg",
@@ -19,9 +20,7 @@ function IconoLink(props) {
 function InfoParque(props) {
   return (
     <div className="container  w-50">
-      <h1 className="title d-inline-block p-3">
-        <b>{props.title}</b>
-      </h1>
+      <Titulo title={props.title} />
       <hr className="separador-car" />
 
       <Slider data={props.sliderImages} id="sliderParque" />
