@@ -13,11 +13,13 @@ function CardOfParque(props) {
         title={props.title}
         linkParque={props.linkParque}
         addClass={"top-menos-20px"}
+        bg={props.bg}
       />
 
       <p className="description">{props.description}</p>
       <Link to={props.linkParque} class="text-decoration-none">
-        <div className="link">Ver más ➕</div>
+        {/*<div className="link">Ver más ➕</div>*/}
+        <img width="100px" src="../../Assets/iconos/btn-ver-mas.svg" />
       </Link>
     </div>
   );

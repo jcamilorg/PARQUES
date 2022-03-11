@@ -13,13 +13,16 @@ import InfoParques, {
 
 class BannerParques extends Component {
   render() {
+    var bg_number = 0;
     const CardsOfParques = InfoParques.map((parque) => {
+      bg_number++;
       return (
         <CardOfParque
           imgsrc={parque.imgSrc}
           title={parque.title}
           description={parque.description_short}
           linkParque={parque.link}
+          bg={bg_number}
         />
       );
     });

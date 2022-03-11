@@ -2,7 +2,35 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function BotonNombreParques(props) {
-  const classTitle = "title p-2 mx-2 mx-md-4 mx-lg-5 ";
+  var bg = " bg-btn-acua";
+  switch (props.bg) {
+    case 1:
+      bg = " bg-btn-acua";
+      break;
+
+    case 2:
+      bg = " bg-btn-blue";
+      break;
+
+    case 3:
+      bg = " bg-btn-dark-blue";
+      break;
+
+    case 4:
+      bg = " bg-btn-dark-green";
+      break;
+
+    case 5:
+      bg = " bg-btn-green";
+      break;
+
+    case 6:
+      bg = " bg-btn-orange";
+      break;
+    default:
+      break;
+  }
+  const classTitle = "title p-2 mx-2 mx-md-4 mx-lg-5 " + bg;
 
   return (
     <React.Fragment>

@@ -145,3 +145,29 @@
 .collapsed {
   color: #fff;
 }
+
+/*Estilos para fondos de los titulos */
+
+.bg-btn-acua {
+  background-image: url(../public/Assets/fondos/bg-btn-acua.svg);
+}
+
+.bg-btn-blue {
+  background-image: url(../public/Assets/fondos/bg-btn-blue.svg);
+}
+
+.bg-btn-dark-blue {
+  background-image: url(../public/Assets/fondos/bg-btn-dark-blue.svg);
+}
+
+.bg-btn-dark-green {
+  background-image: url(../public/Assets/fondos/bg-btn-dark-green.svg);
+}
+
+.bg-btn-green {
+  background-image: url(../public/Assets/fondos/bg-btn-green.svg);
+}
+
+.bg-btn-orange {
+  background-image: url(../public/Assets/fondos/bg-btn-orange.svg);
+}

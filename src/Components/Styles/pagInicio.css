@@ -16,7 +16,7 @@
   border-radius: 20px;
   color: #fff;
   background-color: #008c2a;
-  background-image: url(../../../public/Assets/fondos/bg-Fotter.png);
+  background-image: url(../../../public/Assets/fondos/bg-titulo-parques.svg);
   background-size: cover;
   font-size: 35px;
 }
@@ -36,7 +36,9 @@
 }
 
 .BannerInformativo {
-  background-color: #365e68;
+  background-image: url(../../../public/Assets/fondos/bg-banner-informativo.svg);
+  background-size: cover;
+  background-color: #325962;
   justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
