@@ -164,7 +164,7 @@ export default class PagPreguntasFrecuentes extends Component {
               datos importantes para tu viaje!
             </p>
             <div className="mt-4 container-fluid">
-              <img src="./Assets/Img/MapaParques.png" />
+              <img src={require("./Assets/Img/MapaParques.png")} />
             </div>
           </div>
         </div>

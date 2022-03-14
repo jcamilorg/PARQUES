@@ -1,4 +1,7 @@
 import React from "react";
+//Importacion de imagenes
+import btn_izq from "../Assets/iconos/boton-slider-izquierda.png";
+import btn_der from "../Assets/iconos/boton-slider-derecha.png";
 
 function CarrouselItem(props) {
   var CaroulseClass = "carousel-item";
@@ -46,7 +49,7 @@ function CarrouselAuto(props) {
         <img
           style={{ marginRight: "80%" }}
           width="25px"
-          src="../../Assets/iconos/boton-slider-izquierda.png"
+          src={btn_izq}
           onerror="this.style.display='none'"
           alt="<"
         />
@@ -66,7 +69,7 @@ function CarrouselAuto(props) {
         <img
           style={{ marginLeft: "80%" }}
           width="25px"
-          src="../../Assets/iconos/boton-slider-derecha.png"
+          src={btn_der}
           onError="this.style.display='none'"
           alt=">"
         />

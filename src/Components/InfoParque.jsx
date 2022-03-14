@@ -28,23 +28,23 @@ function InfoParque(props) {
       <div class="row justify-content-center text-dark">
         <IconoLink
           description="¿Cómo llegar?"
-          imgsrc="/Assets/iconos/icono-mapa.png"
+          imgsrc={require("./Assets/iconos/icono-mapa.png")}
         />
         <IconoLink
           description="Horario"
-          imgsrc="/Assets/iconos/icono-horario.png"
+          imgsrc={require("./Assets/iconos/icono-horario.png")}
         />
         <IconoLink
           description="Tour 3D"
-          imgsrc="/Assets/iconos/icono-tour-360.png"
+          imgsrc={require("./Assets/iconos/icono-tour-360.png")}
         />
         <IconoLink
           description="Mapa del parque"
-          imgsrc="/Assets/iconos/icono-mapa-parque.png"
+          imgsrc={require("./Assets/iconos/icono-mapa-parque.png")}
         />
         <IconoLink
           description="¿Qué hacer?"
-          imgsrc="/Assets/iconos/incono-que-hacer.png"
+          imgsrc={require("./Assets/iconos/incono-que-hacer.png")}
         />
       </div>
 

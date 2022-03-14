@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Titulo from "./Utils/BotonNombreParques";
+//Importacion de imagenes
+import ver_mas from "./Assets/iconos/btn-ver-mas.svg";
 
 function CardOfParque(props) {
   return (
@@ -19,7 +21,7 @@ function CardOfParque(props) {
       <p className="description">{props.description}</p>
       <Link to={props.linkParque} class="text-decoration-none">
         {/*<div className="link">Ver más ➕</div>*/}
-        <img width="100px" src="../../Assets/iconos/btn-ver-mas.svg" />
+        <img width="100px" src={ver_mas} />
       </Link>
     </div>
   );

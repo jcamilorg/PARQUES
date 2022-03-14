@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+//Importacion de imagenes
+import colibri from "../Assets/fondos/Colibri.png";
 
 export default function BotonNombreParques(props) {
   var bg = " bg-btn-acua";
@@ -39,11 +41,7 @@ export default function BotonNombreParques(props) {
           <h3 className={classTitle}>{props.title}</h3>
         </Link>
         <div className="ImgColibri d-none d-sm-none d-md-inline">
-          <img
-            width="70px"
-            src={(require = "../../Assets/fondos/Colibri.png")}
-            alt=" "
-          />
+          <img width="70px" src={colibri} alt=" " />
         </div>
       </div>
     </React.Fragment>

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Styles/headerStyle.css";
-//Router
+//Importacion de imagenes
+import LogoParques from "./Assets/logos/Logo_parques.svg";
 
 export default function HeaderParques() {
   return (
@@ -19,7 +20,7 @@ export default function HeaderParques() {
             <a href="#">
               <img
                 className="ContainerImgHeader"
-                src="./Assets/logos/Logo_parques.svg"
+                src={LogoParques}
                 width="180px"
               />
               <div className="SpaceContainerImgHeader"></div>

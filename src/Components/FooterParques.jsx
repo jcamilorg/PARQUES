@@ -1,6 +1,13 @@
 import React from "react";
 import "./Styles/footerStyle.css";
 
+//Importacion de imagenes
+import LogoFacebook from "./Assets/logos/footer_facebook.svg";
+import LogoTwitter from "./Assets/logos/footer_twitter.svg";
+import LogoInstagram from "./Assets/logos/footer_Instagram.svg";
+import LogoYoutube from "./Assets/logos/footer_Youtube.svg";
+import LogoCAR from "./Assets/logos/footer_Logo_CAR.svg";
+
 export default function FooterParques() {
   return (
     <footer>
@@ -30,31 +37,31 @@ export default function FooterParques() {
                 className="mx-3"
                 height="50px"
                 width="50px"
-                src="./Assets/logos/footer_facebook.svg"
+                src={LogoFacebook}
               />
               <img
                 className="mx-3"
                 height="50px"
                 width="50px"
-                src="./Assets/logos/footer_twitter.svg"
+                src={LogoTwitter}
               />
               <img
                 className="mx-3"
                 height="50px"
                 width="50px"
-                src="./Assets/logos/footer_Instagram.svg"
+                src={LogoInstagram}
               />
               <img
                 className="mx-3"
                 height="50px"
                 width="50px"
-                src="./Assets/logos/footer_Youtube.svg"
+                src={LogoYoutube}
               />
             </div>
           </div>
           <hr className="d-lg-none my-4" />
           <div className="col-lg-2 col-md-12 d-flex align-items-center justify-content-center">
-            <img width="130px" src="./Assets/logos/footer_Logo_CAR.svg" />
+            <img width="130px" src={LogoCAR} />
           </div>
           <hr className="d-lg-none my-4" />
         </div>
