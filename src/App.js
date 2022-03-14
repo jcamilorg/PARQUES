@@ -17,7 +17,7 @@ import PagContactanos from "./Components/PagContactanos";
 
 export default function App() {
   return (
-    <div className="container-fluid bg-white page-dos">
+    <div className="container-fluid bg-white page-dos font-antipasto-regular">
       <Router>
         <HeaderParques />
         <Switch>

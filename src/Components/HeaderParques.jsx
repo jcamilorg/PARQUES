@@ -14,7 +14,7 @@ export default function HeaderParques() {
           />
         </div>
 
-        <nav className="navbar navbar-expand-lg navbar-light navbarCar text-start">
+        <nav className="navbar navbar-expand-lg navbar-light navbarCar text-start font-antipasto-regular">
           <div className="container justify-content-center d-flex">
             <a href="#">
               <img
@@ -47,7 +47,7 @@ export default function HeaderParques() {
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/que-hacer">Qué hacer</Link>
+                <Link to="/que-hacer/0">Qué hacer</Link>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 

@@ -86,22 +86,12 @@
   margin-left: 10px;
 }
 
-hr {
-  border: none;
-  background-color: #18a69d;
-  padding: 3px 0;
-  opacity: 1;
-}
-
 .containerProgramate .hrProgramate {
   background-color: #95d043;
-  max-width: 580px;
-  margin: 10px auto;
 }
 
 .hrInformate {
   background-color: #18a69d;
-  margin: 10px auto;
 }
 
 .BannerExperiencias {

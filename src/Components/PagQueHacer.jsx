@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Styles/pagQueHacer.css";
+import { ContenidoQueHacer } from "./Utils/InformacionParques";
+import { Switch, Route, Link, useParams } from "react-router-dom";
 
 function CardQueHacer(props) {
   return (
@@ -17,31 +19,29 @@ function CardQueHacer(props) {
   );
 }
 
-function Actividad(props) {
+function Actividad() {
+  let { id } = useParams();
+  var index;
+  if (id >= 0 || id < 8) {
+    index = parseInt(id);
+  } else {
+    index = 0;
+  }
+
   return (
     <div className="text-start pt-5 text-dark py-5 px-4 mb-3 shadow">
-      <h2 className="fs-4">Zona de Camping</h2>
+      <hr className="line-title" />
+      <h2 className="fs-4 d-flex">
+        {ContenidoQueHacer[index].titulo_actividad}{" "}
+        <img
+          className="ms-auto me-4"
+          width="150px"
+          src={ContenidoQueHacer[index].icono}
+        />
+      </h2>
       <br />
       <br />
-      <p>
-        Comparte junto a tus amigos, las{" "}
-        <b>zonas verdes para camping y picnic.</b>
-      </p>
-      <h4 className="fs-6 ">
-        <b>Parques que prestan el servicio:</b>
-      </h4>
-      <br />
-      <ul>
-        <li>Parque Embalse Neusa</li>
-        <li> Parque Embalse El Hato</li>
-      </ul>
-      <p>Adquiere el servicio en nuestras taquillas, a tu llegada al parque.</p>
-      <br />
-      <br />
-      <h4 className="fs-6">
-        <b>Toma nota</b>
-      </h4>
-      <p>Adquiere el servicio en nuestras taquillas, a tu llegada al parque.</p>
+      {ContenidoQueHacer[index].contenido}
     </div>
   );
 }
@@ -49,41 +49,61 @@ function Actividad(props) {
 export default class PagQueHacer extends Component {
   render() {
     return (
-      <div className="PagQueHacer">
+      <div className="ContainerMainTitle">
         <span className="mainTitle">
           <strong>Qué</strong> Hacer
         </span>
-        <div className="ContainerRoundedTop"></div>
-        <div className="container-fluid bg-white pb-5">
+        <div className="ContainerRoundedTop "></div>
+        <div className="container-fluid bg-white pb-5 font-sans-serif">
           <div className=" row justify-content-center">
             <div className="col-sm-11 row col-md-5 col-lg-4">
               <div className="col-6 my-2">
-                <CardQueHacer description="Zona de Camping" />
+                <Link to="/que-hacer/0">
+                  <CardQueHacer description="Zona de Camping" />
+                </Link>
               </div>
               <div className="col-6 my-2">
-                <CardQueHacer description="Kioscos y Hornillas" />
+                <Link to="/que-hacer/1">
+                  <CardQueHacer description="Kioscos y Hornillas" />
+                </Link>
               </div>
               <div className="col-6 my-2 ">
-                <CardQueHacer description="Visitas guiadas Senderismo" />
+                <Link to="/que-hacer/2">
+                  <CardQueHacer description="Visitas guiadas Senderismo" />
+                </Link>
               </div>
               <div className="col-6 my-2">
-                <CardQueHacer description="Prestamo de bicicletas" />
+                <Link to="/que-hacer/3">
+                  <CardQueHacer description="Prestamo de bicicletas" />
+                </Link>
               </div>
               <div className="col-6 my-2">
-                <CardQueHacer description="Restaurantes" />
+                <Link to="/que-hacer/4">
+                  <CardQueHacer description="Restaurantes" />
+                </Link>
               </div>
               <div className="col-6 my-2">
-                <CardQueHacer description="Navegación" />
+                <Link to="/que-hacer/5">
+                  <CardQueHacer description="Navegación" />
+                </Link>
               </div>
               <div className="col-6 my-2 ">
-                <CardQueHacer description="Alquiler de cabañas" />
+                <Link to="/que-hacer/6">
+                  <CardQueHacer description="Alquiler de cabañas" />
+                </Link>
               </div>
               <div className="col-6 my-2">
-                <CardQueHacer description="Pesca deportiva" />
+                <Link to="/que-hacer/7">
+                  <CardQueHacer description="Pesca deportiva" />
+                </Link>
               </div>
             </div>
+
+            {/* Contenendor de informacion */}
             <div className="col-sm-11 col-md-5 col-lg-4">
-              <Actividad />
+              <Switch>
+                <Route path="/que-hacer/:id" children={<Actividad />} />
+              </Switch>
               <div className="d-flex justify-content-around">
                 <button className="btn btn-secondary">💻 RESERVAS</button>
                 <button className="btn btn-secondary">💵 TARIFAS</button>

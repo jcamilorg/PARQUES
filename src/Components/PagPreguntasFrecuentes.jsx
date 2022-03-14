@@ -144,7 +144,7 @@ function Acordeon() {
 export default class PagPreguntasFrecuentes extends Component {
   render() {
     return (
-      <div className="PagQueHacer">
+      <div className="ContainerMainTitle" style={background}>
         <span className="mainTitle">
           <strong>Preguntas</strong> frecuentes
         </span>
@@ -172,3 +172,9 @@ export default class PagPreguntasFrecuentes extends Component {
     );
   }
 }
+
+const background = {
+  backgroundImage: `url("https://www.car.gov.co/uploads/blog/FgvsjmPAJ8.jpeg")`,
+  backgroundSize: "100%",
+  backgroundPosition: "0% -64%",
+};

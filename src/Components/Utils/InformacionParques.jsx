@@ -276,6 +276,7 @@ var SliderReservas = [
         Revisa la disponibilidad de cabañas y el procedimiento para la
         respectiva consignación, en caso de estar de acuerdo se generará una
         pre-reserva que confirmará la cabaña y el valor a pagar.
+        <br />
         <br /> Realiza tu pre-reserva los martes y miércoles de 8:00 a.m. a 5:00
         p.m. y jueves hasta las 12:00 meridiano.
       </p>
@@ -290,6 +291,12 @@ var SliderReservas = [
       <b>
         ¿Quieres venir con tu grupo de trabajo o realizar alguna actividad con
         tu colegio en nuestros parques?
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </b>
     ),
     linkBtn: "",
@@ -302,11 +309,283 @@ var SliderReservas = [
       <p>
         Prepara tu carpa y ven a nuestros parques a disfrutar las zonas de
         camping que tenemos para ti.
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </p>
     ),
     linkBtn: "",
   },
 ];
 
+var ContenidoQueHacer = [
+  /*Zona Camping*/
+  {
+    titulo_actividad: (
+      <span>
+        Zona <b> Camping</b>{" "}
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    contenido: (
+      <div>
+        <p>
+          Comparte junto a tus amigos, las{" "}
+          <b>zonas verdes para camping y picnic.</b>
+        </p>
+        <h4 className="fs-6 ">
+          <b>Parques que prestan el servicio:</b>
+        </h4>
+        <br />
+        <ul>
+          <li>Parque Embalse Neusa</li>
+          <li> Parque Embalse El Hato</li>
+        </ul>
+        <p>
+          Adquiere el servicio en nuestras taquillas, a tu llegada al parque.
+        </p>
+        <br />
+        <br />
+        <h4 className="fs-6">
+          <b>Toma nota</b>
+        </h4>
+        <p>
+          Adquiere el servicio en nuestras taquillas, a tu llegada al parque.
+        </p>
+      </div>
+    ),
+  },
+  /*kioskos*/
+  {
+    titulo_actividad: (
+      <span>
+        Kioscos y <b>Hornillas</b>
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Parrilas_QH.png",
+    contenido: (
+      <div>
+        <b>De que trata</b>
+        <br />
+        <p>
+          Ofrecemos el servicio de alquiler de parrillas para tus asados
+          ¡Alquila y disfruta todo el día!
+        </p>
+        <br />
+        <b>¿Cómo puedo alquilar una?</b>
+        <br />
+        <p>
+          Solicita tu parrilla en alquiler en cualquiera de las taquillas de
+          nuestro parque. Allí te indicaremos cómo deberás devolverla.
+        </p>
+        <br />
+        <b>¿Qué costo tiene?</b>
+        <p>
+          El costo de alquiler de parrilas es de $5.500*COP por día (por
+          parrilla)
+        </p>{" "}
+        <br />
+        <i>*iva incluido</i>
+      </div>
+    ),
+  },
+  /*visitas guidas*/
+  {
+    titulo_actividad: (
+      <span>
+        Visitas guidas
+        <br /> <b>Senderismo</b>
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Senderismo_QH.png",
+    contenido: (
+      <div>
+        <p>
+          En estos maravillosos ecosistemas, encontrarás visitas guiadas en las
+          que es posible adentrarse en la hermosa naturaleza y conocer de
+          primera mano todo sobre la cultura Muisca y la historia de los
+          diferentes municipios de nuestra Jurisdicción.
+        </p>
+        <br />
+        <b>Parques que prestan el servicio:</b>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <br />
+        <b>Toma nota:</b>
+      </div>
+    ),
+  },
+  /*Prestamo de bicivletas*/
+  {
+    titulo_actividad: (
+      <span>
+        Prestamo de <br />
+        <b>bicicletas</b>
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    contenido: (
+      <div>
+        Comparte junto a tus amigos, las{" "}
+        <b>zonas verdes para camping y picnic.</b>
+        <br />
+        <b>Parques que prestan el servicio:</b>
+        <br />
+        <br />
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <b>Toma nota:</b>
+      </div>
+    ),
+  },
+  /*Restaurante*/
+  {
+    titulo_actividad: (
+      <span>
+        <b>Restaurantes</b>
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    contenido: (
+      <div>
+        Comparte junto a tus amigos, las{" "}
+        <b>zonas verdes para camping y picnic.</b>
+        <br />
+        <br />
+        <b>Parques que prestan el servicio:</b>
+        <br />
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <b>Toma nota:</b>
+      </div>
+    ),
+  },
+
+  /*Navegacion*/
+  {
+    titulo_actividad: (
+      <span>
+        <b>Navegación</b>
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    contenido: (
+      <div>
+        Comparte junto a tus amigos, las{" "}
+        <b>zonas verdes para camping y picnic.</b>
+        <br />
+        <br />
+        <b>Parques que prestan el servicio:</b>
+        <br />
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <b>Toma nota:</b>
+      </div>
+    ),
+  },
+  /*Alquiler de cabañas*/
+  {
+    titulo_actividad: (
+      <span>
+        Alquiler de <br /> <b>Cabañas</b>
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    contenido: (
+      <div>
+        Comparte junto a tus amigos, las{" "}
+        <b>zonas verdes para camping y picnic.</b>
+        <br />
+        <br />
+        <b>Parques que prestan el servicio:</b>
+        <br />
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <b>Toma nota:</b>
+      </div>
+    ),
+  },
+  /*Pesca deportiva*/
+  {
+    titulo_actividad: (
+      <span>
+        <b>Pesca</b>
+        <br /> deportiva
+      </span>
+    ),
+    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    contenido: (
+      <div>
+        Comparte junto a tus amigos, las{" "}
+        <b>zonas verdes para camping y picnic.</b>
+        <br />
+        <br />
+        <b>Parques que prestan el servicio:</b>
+        <br />
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <b>Toma nota:</b>
+      </div>
+    ),
+  },
+];
+
 export default InfoParques;
-export { Noticias, SliderInformate, SliderExperiencia, SliderReservas };
+export {
+  Noticias,
+  SliderInformate,
+  SliderExperiencia,
+  SliderReservas,
+  ContenidoQueHacer,
+};

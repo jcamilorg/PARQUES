@@ -8,7 +8,14 @@
 .page-dos {
   padding: 0;
 }
-
+/**/
+.ContainerMainTitle {
+  background-color: #fff;
+  background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/42939wide.jpg");
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-size: 120%;
+}
 /* Estilos para el Grid que muestra los parques*/
 
 .gridParques {
@@ -99,6 +106,20 @@
   background-color: #fff;
   border-radius: 50% 50% 0% 0;
 }
+
+hr {
+  border: none;
+  background-color: #18a69d;
+  padding: 3px 0;
+  margin: 5px auto;
+  margin-top: 0px;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*Colores de fondo y texto*/
 /*fondo*/
 .bg-dark-blue {
@@ -111,6 +132,10 @@
 
 .bg-acua {
   background-color: #00a19c;
+}
+
+.bg-black {
+  background-color: #000;
 }
 /*Texto*/
 .bg-l-green {
@@ -136,10 +161,6 @@
 .text-dark-acua {
   color: #325860;
 }
-
-/*Estilos para tabla de la pagina Para tener encuenta*/
-
-/*--*/
 
 /*Estilos para el acordeon de de la pagina preguntas frecuentes*/
 .collapsed {
@@ -170,4 +191,48 @@
 
 .bg-btn-orange {
   background-image: url(../public/Assets/fondos/bg-btn-orange.svg);
+}
+
+/* Fuentes para la pagina */
+@font-face {
+  font-family: Antipasto-pro-extraBold;
+  src: url(../public/Assets/Fuentes/Antipasto-Pro-ExtraBold-trial.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: Antipasto-pro-extraLight;
+  src: url(../public/Assets/Fuentes/Antipasto-Pro-ExtraLight-trial.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: Antipasto-pro-regular;
+  src: url(../public/Assets/Fuentes/Antipasto-Pro-Regular-trial.ttf)
+    format("truetype");
+}
+
+.font-antipasto-extraBold {
+  font-family: Antipasto-pro-extraBold;
+}
+
+.font-antipasto-extraLight {
+  font-family: Antipasto-pro-extraLight;
+}
+
+.font-antipasto-regular {
+  font-family: Antipasto-pro-regular;
+}
+
+/* Correcion de error de negrilla en las fuentes*/
+b {
+  font-family: Antipasto-pro-extraBold;
+}
+
+.font-sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+}
+
+.font-sans-serif b {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
 }
