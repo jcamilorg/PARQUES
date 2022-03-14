@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pagina-web-parques-on-react/static/css/main.afaf18ac.css",
-    "main.js": "/Pagina-web-parques-on-react/static/js/main.d9e716e0.js",
+    "main.js": "/Pagina-web-parques-on-react/static/js/main.57e4f0c0.js",
     "static/media/imagen fondo opiniones.png": "/Pagina-web-parques-on-react/static/media/imagen fondo opiniones.2e265a4698eb6a803744.png",
     "static/media/Antipasto-Pro-ExtraLight-trial.ttf": "/Pagina-web-parques-on-react/static/media/Antipasto-Pro-ExtraLight-trial.e891c28d2edd658aab88.ttf",
     "static/media/Antipasto-Pro-ExtraBold-trial.ttf": "/Pagina-web-parques-on-react/static/media/Antipasto-Pro-ExtraBold-trial.98eb5eceed2a804e56f9.ttf",
@@ -20,10 +20,10 @@
     "static/media/bg-Footer.svg": "/Pagina-web-parques-on-react/static/media/bg-Footer.f7de7215c77eabb5cc18.svg",
     "static/media/Header.svg": "/Pagina-web-parques-on-react/static/media/Header.77f0dbc8d1b1d4590f45.svg",
     "main.afaf18ac.css.map": "/Pagina-web-parques-on-react/static/css/main.afaf18ac.css.map",
-    "main.d9e716e0.js.map": "/Pagina-web-parques-on-react/static/js/main.d9e716e0.js.map"
+    "main.57e4f0c0.js.map": "/Pagina-web-parques-on-react/static/js/main.57e4f0c0.js.map"
   },
   "entrypoints": [
     "static/css/main.afaf18ac.css",
-    "static/js/main.d9e716e0.js"
+    "static/js/main.57e4f0c0.js"
   ]
 }
