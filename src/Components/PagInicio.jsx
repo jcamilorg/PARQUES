@@ -13,13 +13,16 @@ import InfoParques, {
 
 class BannerParques extends Component {
   render() {
+    var bg_number = 0;
     const CardsOfParques = InfoParques.map((parque) => {
+      bg_number++;
       return (
         <CardOfParque
           imgsrc={parque.imgSrc}
           title={parque.title}
           description={parque.description_short}
           linkParque={parque.link}
+          bg={bg_number}
         />
       );
     });
@@ -86,10 +89,15 @@ class BannerExperiencias extends Component {
           Experiencias de nuestros visitantes
         </span>
         <div></div>
-        <div className="d-flex flex-column align-items-center">
-          <hr className="separador-car w-50" />
-          <div className="Slider w-50">
-            <Slider data={SliderExperiencia} id="slider-banner-experiencias" />
+        <div className="row flex-column align-items-center">
+          <div className="col-12 col-md-8 col-lg-6">
+            <hr className="separador-car " />
+            <div className="Sliderr">
+              <Slider
+                data={SliderExperiencia}
+                id="slider-banner-experiencias"
+              />
+            </div>
           </div>
         </div>
 
@@ -104,16 +112,18 @@ class PagInicio extends Component {
   render() {
     return (
       <div className="pagInicio">
-        <div className="container-fluid p-0">
-          <iframe
+        <div className="p-0 m-0">
+          <video
             width="100%"
-            height="550"
-            src="https://www.youtube.com/embed/P3MY6vPdgZM?controls=0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+            controls
+            poster="./Assets/videos/poster-video-inicio.png"
+          >
+            <source
+              src="./Assets/videos/Video-inicio-parques.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <BannerParques />
         <BannerInformativo />

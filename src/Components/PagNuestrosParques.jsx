@@ -10,12 +10,15 @@ import InfoParques from "./Utils/InformacionParques";
 
 class PagNuestrosParques extends Component {
   render() {
+    var bg_number = 0;
     const CardsOfParques = InfoParques.map((item) => {
+      bg_number++;
       return (
         <CardOfParque
           imgsrc={item.imgSrc}
           title={item.title}
           linkParque={item.link}
+          bg={bg_number}
         ></CardOfParque>
       );
     });

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class PagContactanos extends Component {
   render() {
     return (
-      <div className="PagQueHacer">
+      <div className="ContainerMainTitle" style={background}>
         <span className="mainTitle">
           <strong>Contáctanos</strong>
         </span>
@@ -63,3 +63,9 @@ export default class PagContactanos extends Component {
     );
   }
 }
+
+const background = {
+  backgroundImage: `url("https://www.car.gov.co/uploads/blog/uU2LuNDtJe.jpeg")`,
+  backgroundSize: "100%",
+  backgroundPosition: "0% 400%",
+};

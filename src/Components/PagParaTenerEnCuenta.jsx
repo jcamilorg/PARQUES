@@ -172,7 +172,7 @@ function TableParaTenerEncuenta() {
 export default class PagParaTenerEnCuenta extends Component {
   render() {
     return (
-      <div className="PagQueHacer">
+      <div className="ContainerMainTitle" style={background}>
         <span className="mainTitle">
           Para tener <strong>en cuenta</strong>
         </span>
@@ -193,3 +193,8 @@ export default class PagParaTenerEnCuenta extends Component {
     );
   }
 }
+const background = {
+  backgroundImage: `url("https://www.car.gov.co/uploads/blog/OAux2HfsIR.jpeg")`,
+  backgroundSize: "100%",
+  backgroundPosition: "0% -50%",
+};

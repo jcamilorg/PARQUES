@@ -32,7 +32,7 @@ function CardOfHorario(props) {
 export default class PagHorariosTarifas extends Component {
   render() {
     return (
-      <div className="PagQueHacer">
+      <div className="ContainerMainTitle" style={background}>
         <span className="mainTitle">
           <strong>Horarios</strong> tarifas
         </span>
@@ -44,7 +44,7 @@ export default class PagHorariosTarifas extends Component {
             permite el ingreso a ninguno de nuestros parques.
           </p>
           <div className="row justify-content-center p-5">
-            <div className="col-10 col-md-8 col-lg-5  pb-5 ">
+            <div className="col-10 col-md-8 col-lg-5  pb-5 font-sans-serif">
               <Slider data={CardsOfhorario} id="slider_Horarios" />
             </div>
           </div>
@@ -53,3 +53,9 @@ export default class PagHorariosTarifas extends Component {
     );
   }
 }
+
+const background = {
+  backgroundImage: `url("https://www.car.gov.co/uploads/blog/OAux2HfsIR.jpeg")`,
+  backgroundSize: "100%",
+  backgroundPosition: "0% -108%",
+};
