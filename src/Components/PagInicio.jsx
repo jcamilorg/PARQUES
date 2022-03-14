@@ -112,18 +112,16 @@ class PagInicio extends Component {
   render() {
     return (
       <div className="pagInicio">
-        <div className="p-0 m-0">
-          <video
+        <div className="container-fluid p-0">
+          <iframe
             width="100%"
-            controls
-            poster="./Assets/videos/poster-video-inicio.png"
-          >
-            <source
-              src="./Assets/videos/Video-inicio-parques.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+            height="550"
+            src="https://www.youtube.com/embed/P3MY6vPdgZM?controls=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
         <BannerParques />
         <BannerInformativo />
