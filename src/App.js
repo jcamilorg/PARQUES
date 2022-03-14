@@ -22,6 +22,11 @@ export default function App() {
         <HeaderParques />
         <Switch>
           <Route exact path="/" component={PagInicio} />
+          <Route
+            exact
+            path="/Pagina-web-parques-on-react"
+            component={PagInicio}
+          />
           <Route path="/nuestros-parques" component={PagNuestrosParques} />
           <Route path="/que-hacer" component={PagQueHacer} />
           <Route path="/horarios-y-tarifas" component={PagHorariosTarifas} />
