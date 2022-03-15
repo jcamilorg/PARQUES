@@ -55,7 +55,7 @@
   color: #fff;
   background-color: #00aeb3;
   font-size: 18px;
-  background-image: url("../public/Assets/fondos/Fondo_verde_boton.svg");
+  background-image: url("../public/Assets/backgrounds/Fondo_verde_boton.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 190px;
@@ -170,43 +170,43 @@ a {
 /*Estilos para fondos de los titulos */
 
 .bg-btn-acua {
-  background-image: url(../public/Assets/fondos/bg-btn-acua.svg);
+  background-image: url(../public/Assets/backgrounds/bg-btn-acua.svg);
 }
 
 .bg-btn-blue {
-  background-image: url(../public/Assets/fondos/bg-btn-blue.svg);
+  background-image: url(../public/Assets/backgrounds/bg-btn-blue.svg);
 }
 
 .bg-btn-dark-blue {
-  background-image: url(../public/Assets/fondos/bg-btn-dark-blue.svg);
+  background-image: url(../public/Assets/backgrounds/bg-btn-dark-blue.svg);
 }
 
 .bg-btn-dark-green {
-  background-image: url(../public/Assets/fondos/bg-btn-dark-green.svg);
+  background-image: url(../public/Assets/backgrounds/bg-btn-dark-green.svg);
 }
 
 .bg-btn-green {
-  background-image: url(../public/Assets/fondos/bg-btn-green.svg);
+  background-image: url(../public/Assets/backgrounds/bg-btn-green.svg);
 }
 
 .bg-btn-orange {
-  background-image: url(../public/Assets/fondos/bg-btn-orange.svg);
+  background-image: url(../public/Assets/backgrounds/bg-btn-orange.svg);
 }
 
 /* Fuentes para la pagina */
 @font-face {
   font-family: Antipasto-pro-extraBold;
-  src: url(../public/Assets/Fuentes/Antipasto-Pro-ExtraBold-trial.ttf)
+  src: url(../public/Assets/fonts/Antipasto-Pro-ExtraBold-trial.ttf)
     format("truetype");
 }
 @font-face {
   font-family: Antipasto-pro-extraLight;
-  src: url(../public/Assets/Fuentes/Antipasto-Pro-ExtraLight-trial.ttf)
+  src: url(../public/Assets/fonts/Antipasto-Pro-ExtraLight-trial.ttf)
     format("truetype");
 }
 @font-face {
   font-family: Antipasto-pro-regular;
-  src: url(../public/Assets/Fuentes/Antipasto-Pro-Regular-trial.ttf)
+  src: url(../public/Assets/fonts/Antipasto-Pro-Regular-trial.ttf)
     format("truetype");
 }
 

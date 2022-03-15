@@ -16,7 +16,7 @@
   border-radius: 20px;
   color: #fff;
   background-color: #008c2a;
-  background-image: url(../../../public/Assets/fondos/bg-titulo-parques.svg);
+  background-image: url(../../../public/Assets/backgrounds/bg-titulo-parques.svg);
   background-size: cover;
   font-size: 35px;
 }
@@ -36,7 +36,7 @@
 }
 
 .BannerInfo {
-  background-image: url(../../../public/Assets/fondos/bg-banner-informativo.svg);
+  background-image: url(../../../public/Assets/backgrounds/bg-banner-informativo.svg);
   background-size: cover;
   background-color: #325962;
   justify-content: center;
@@ -98,7 +98,7 @@
   background-color: #fff;
   padding-top: 5%;
   padding-bottom: 30%;
-  background-image: url("../../../public/Assets/fondos/imagen\ fondo\ opiniones.png");
+  background-image: url("../../../public/Assets/backgrounds/imagen\ fondo\ opiniones.png");
   background-size: 105%;
   background-repeat: no-repeat;
   background-position: 0% 100%;
