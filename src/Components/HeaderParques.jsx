@@ -10,8 +10,9 @@ export default function HeaderParques() {
       <header className="position-absolute">
         <div id="ContainerImgTopHeader">
           <input
+            className="ms-auto"
             type="text"
-            placeholder="(Desarrollo)Buscar en esta pagina 🔎"
+            placeholder="Buscar en esta pagina 🔎"
           />
         </div>
 

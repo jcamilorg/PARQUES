@@ -90,7 +90,7 @@ class BannerExperiencias extends Component {
         </span>
         <div></div>
         <div className="row flex-column align-items-center">
-          <div className="col-12 col-md-8 col-lg-6">
+          <div className="col-10 col-md-8 col-lg-6">
             <hr className="separador-car " />
             <div className="Sliderr">
               <Slider
