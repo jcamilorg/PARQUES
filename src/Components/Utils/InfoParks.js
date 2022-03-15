@@ -1,4 +1,4 @@
-var InfoParques = [
+var InfoParks = [
   //EMBALSE NEUSA
   {
     SliderImages: [
@@ -26,14 +26,14 @@ var InfoParques = [
         natural.,
       </span>
     ),
-    horario: "6:30 a.m. a 4:30 p.m.",
-    horario_description: (
+    schedule: "6:30 a.m. a 4:30 p.m.",
+    schedule_description: (
       <p>
         <b>Alojamiento en cabañas:</b>
         <br /> Ingreso (check in): 3:00 p.m.
         <br /> Salida (check out): 1:00 p.m.
         <br />
-        <br /> <b>Horario para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
+        <br /> <b>schedule para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
         4:30 p.m. <br /> Viernes, sábado y día anterior a festivo: 6:30a.m. a
         10:00 p.m.
       </p>
@@ -60,14 +60,14 @@ var InfoParques = [
         <b>conoce de primera mano todo sobre la cultura Muisca.</b>
       </p>
     ),
-    horario: "6:30 a.m. a 4:30 p.m.",
-    horario_description: (
+    schedule: "6:30 a.m. a 4:30 p.m.",
+    schedule_description: (
       <p>
         <b>Alojamiento en cabañas:</b>
         <br /> Ingreso (check in): 3:00 p.m.
         <br /> Salida (check out): 1:00 p.m.
         <br />
-        <br /> <b>Horario para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
+        <br /> <b>schedule para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
         4:30 p.m. <br /> Viernes, sábado y día anterior a festivo: 6:30a.m. a
         10:00 p.m.
       </p>
@@ -94,14 +94,14 @@ var InfoParques = [
         <b>zonas verdes para camping y picnic.</b>
       </p>
     ),
-    horario: "6:30 a.m. a 4:30 p.m.",
-    horario_description: (
+    schedule: "6:30 a.m. a 4:30 p.m.",
+    schedule_description: (
       <p>
         <b>Alojamiento en cabañas:</b>
         <br /> Ingreso (check in): 3:00 p.m.
         <br /> Salida (check out): 1:00 p.m.
         <br />
-        <br /> <b>Horario para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
+        <br /> <b>schedule para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
         4:30 p.m. <br /> Viernes, sábado y día anterior a festivo: 6:30a.m. a
         10:00 p.m.
       </p>
@@ -127,14 +127,14 @@ var InfoParques = [
         a su paso.{" "}
       </p>
     ),
-    horario: "6:30 a.m. a 4:30 p.m.",
-    horario_description: (
+    schedule: "6:30 a.m. a 4:30 p.m.",
+    schedule_description: (
       <p>
         <b>Alojamiento en cabañas:</b>
         <br /> Ingreso (check in): 3:00 p.m.
         <br /> Salida (check out): 1:00 p.m.
         <br />
-        <br /> <b>Horario para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
+        <br /> <b>schedule para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
         4:30 p.m. <br /> Viernes, sábado y día anterior a festivo: 6:30a.m. a
         10:00 p.m.
       </p>
@@ -161,14 +161,14 @@ var InfoParques = [
         contemplas el hermoso paisaje.
       </p>
     ),
-    horario: "6:30 a.m. a 4:30 p.m.",
-    horario_description: (
+    schedule: "6:30 a.m. a 4:30 p.m.",
+    schedule_description: (
       <p>
         <b>Alojamiento en cabañas:</b>
         <br /> Ingreso (check in): 3:00 p.m.
         <br /> Salida (check out): 1:00 p.m.
         <br />
-        <br /> <b>Horario para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
+        <br /> <b>schedule para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
         4:30 p.m. <br /> Viernes, sábado y día anterior a festivo: 6:30a.m. a
         10:00 p.m.
       </p>
@@ -195,14 +195,14 @@ var InfoParques = [
         <b>meditación y esparcimiento.</b>{" "}
       </p>
     ),
-    horario: "6:30 a.m. a 4:30 p.m.",
-    horario_description: (
+    schedule: "6:30 a.m. a 4:30 p.m.",
+    schedule_description: (
       <p>
         <b>Alojamiento en cabañas:</b>
         <br /> Ingreso (check in): 3:00 p.m.
         <br /> Salida (check out): 1:00 p.m.
         <br />
-        <br /> <b>Horario para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
+        <br /> <b>schedule para camping:</b> <br /> Martes a jueves: 6:30 a.m. a
         4:30 p.m. <br /> Viernes, sábado y día anterior a festivo: 6:30a.m. a
         10:00 p.m.
       </p>
@@ -213,7 +213,7 @@ var InfoParques = [
   },
 ];
 
-var Noticias = [
+var News = [
   {
     imgSrc: "https://www.car.gov.co/uploads/blog/zeQbdINWIf.jpeg",
     content:
@@ -231,7 +231,7 @@ var Noticias = [
   },
 ];
 
-var SliderInformate = [
+var SliderInfo = [
   {
     imgSrc: "https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg",
   },
@@ -243,7 +243,7 @@ var SliderInformate = [
   },
 ];
 
-var SliderExperiencia = [
+var SliderExperience = [
   <iframe
     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCAR.Cundi%2Fposts%2F5608428509186757&show_text=true&width=500"
     width="500"
@@ -264,7 +264,7 @@ var SliderExperiencia = [
   ></iframe>,
 ];
 
-var SliderReservas = [
+var SliderBookings = [
   {
     title: "Reserva de cabañas",
     imgSrc:
@@ -321,22 +321,22 @@ var SliderReservas = [
   },
 ];
 
-var ContenidoQueHacer = [
+var ContentWhatToDo = [
   /*Zona Camping*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         Zona <b> Camping</b>{" "}
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Cabañas_QH.png")}
+        src={require("../Assets/icons/Cabañas_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         <p>
           Comparte junto a tus amigos, las{" "}
@@ -366,19 +366,19 @@ var ContenidoQueHacer = [
   },
   /*kioskos*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         Kioscos y <b>Hornillas</b>
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Parrilas_QH.png")}
+        src={require("../Assets/icons/Parrilas_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         <b>De que trata</b>
         <br />
@@ -406,20 +406,20 @@ var ContenidoQueHacer = [
   },
   /*visitas guidas*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         Visitas guidas
         <br /> <b>Senderismo</b>
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Senderismo_QH.png")}
+        src={require("../Assets/icons/Senderismo_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         <p>
           En estos maravillosos ecosistemas, encontrarás visitas guiadas en las
@@ -441,20 +441,20 @@ var ContenidoQueHacer = [
   },
   /*Prestamo de bicivletas*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         Prestamo de <br />
         <b>bicicletas</b>
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Senderismo_QH.png")}
+        src={require("../Assets/icons/Senderismo_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         Comparte junto a tus amigos, las{" "}
         <b>zonas verdes para camping y picnic.</b>
@@ -479,19 +479,19 @@ var ContenidoQueHacer = [
   },
   /*Restaurante*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         <b>Restaurantes</b>
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Senderismo_QH.png")}
+        src={require("../Assets/icons/Senderismo_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         Comparte junto a tus amigos, las{" "}
         <b>zonas verdes para camping y picnic.</b>
@@ -517,19 +517,19 @@ var ContenidoQueHacer = [
 
   /*Navegacion*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         <b>Navegación</b>
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Senderismo_QH.png")}
+        src={require("../Assets/icons/Senderismo_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         Comparte junto a tus amigos, las{" "}
         <b>zonas verdes para camping y picnic.</b>
@@ -554,19 +554,19 @@ var ContenidoQueHacer = [
   },
   /*Alquiler de cabañas*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         Alquiler de <br /> <b>Cabañas</b>
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Senderismo_QH.png")}
+        src={require("../Assets/icons/Senderismo_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         Comparte junto a tus amigos, las{" "}
         <b>zonas verdes para camping y picnic.</b>
@@ -591,20 +591,20 @@ var ContenidoQueHacer = [
   },
   /*Pesca deportiva*/
   {
-    titulo_actividad: (
+    title_activity: (
       <span>
         <b>Pesca</b>
         <br /> deportiva
       </span>
     ),
-    icono: (
+    icon: (
       <img
         className="ms-auto me-4"
         width="150px"
-        src={require("../Assets/iconos/Senderismo_QH.png")}
+        src={require("../Assets/icons/Senderismo_QH.png")}
       />
     ),
-    contenido: (
+    content: (
       <div>
         Comparte junto a tus amigos, las{" "}
         <b>zonas verdes para camping y picnic.</b>
@@ -629,11 +629,5 @@ var ContenidoQueHacer = [
   },
 ];
 
-export default InfoParques;
-export {
-  Noticias,
-  SliderInformate,
-  SliderExperiencia,
-  SliderReservas,
-  ContenidoQueHacer,
-};
+export default InfoParks;
+export { News, SliderInfo, SliderExperience, SliderBookings, ContentWhatToDo };

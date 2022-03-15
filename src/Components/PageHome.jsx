@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import "./Styles/pagInicio.css";
-import GridParques from "./GridParques";
-import CardOfParque from "./CardOfParque";
+import "./Styles/pageHome.css";
+import GridParks from "./Utils/GridParks";
+import CardOfParque from "./Utils/CardOfPark";
 import Slider from "./Utils/Slider";
 import { Link } from "react-router-dom";
 //Informacion
 import InfoParques, {
-  Noticias,
-  SliderInformate,
-  SliderExperiencia,
-} from "./Utils/InformacionParques";
+  News,
+  SliderInfo,
+  SliderExperience,
+} from "./Utils/InfoParks";
 
-class BannerParques extends Component {
+class BannerParks extends Component {
   render() {
     var bg_number = 0;
     const CardsOfParques = InfoParques.map((parque) => {
@@ -32,7 +32,7 @@ class BannerParques extends Component {
         <div className="tituloParques">
           <span>Destinos Maravillosos para el goce de la naturaleza</span>
         </div>
-        <GridParques data={CardsOfParques} />
+        <GridParks data={CardsOfParques} />
         <Link to="/reservas">
           {" "}
           <button className="btnReservas">💻 RESERVAS</button>
@@ -42,7 +42,7 @@ class BannerParques extends Component {
   }
 }
 
-function CardInfo(props) {
+function CardNew(props) {
   return (
     <div className="CardInfo">
       <img width="140px" src={props.imgsrc} />
@@ -51,52 +51,49 @@ function CardInfo(props) {
   );
 }
 
-class BannerInformativo extends Component {
+class BannerInfo extends Component {
   render() {
-    const imgSliderInformate = SliderInformate.map((item) => {
+    const imgSliderInfo = SliderInfo.map((item) => {
       return <img src={item.imgSrc} />;
     });
 
-    const CardsOfNoticias = Noticias.map((item) => {
-      return <CardInfo imgsrc={item.imgSrc} description={item.content} />;
+    const CardsOfNews = News.map((item) => {
+      return <CardNew imgsrc={item.imgSrc} description={item.content} />;
     });
 
     return (
-      <div className="BannerInformativo row justify-content-center container-fluid py-5 text-white">
+      <div className="BannerInfo row justify-content-center container-fluid py-5 text-white">
         <div className="containerProgramate col-11 col-lg-5 m-3">
           <span className="titleRounded">¡Prográmate!</span>
           <hr className="hrProgramate" />
           <div className="Slider">
-            <Slider data={imgSliderInformate} id="slider-banner-informate" />
+            <Slider data={imgSliderInfo} id="slider-banner-informate" />
           </div>
         </div>
 
         <div className="col-11 col-lg-5 m-3">
           <span className="titleRounded">Infórmate</span>
           <hr className="hrInformate" />
-          <div className="listOfCardInfo">{CardsOfNoticias}</div>
+          <div className="listOfCardInfo">{CardsOfNews}</div>
         </div>
       </div>
     );
   }
 }
 
-class BannerExperiencias extends Component {
+class BannerExperience extends Component {
   render() {
     return (
-      <div className="BannerExperiencias container-fluid  text-white">
+      <div className="BannerExperience container-fluid  text-white">
         <span className="titleRounded">
           Experiencias de nuestros visitantes
         </span>
         <div></div>
         <div className="row flex-column align-items-center">
           <div className="col-10 col-md-8 col-lg-6">
-            <hr className="separador-car " />
+            <hr className="hr-car " />
             <div className="Sliderr">
-              <Slider
-                data={SliderExperiencia}
-                id="slider-banner-experiencias"
-              />
+              <Slider data={SliderExperience} id="slider-banner-experiencias" />
             </div>
           </div>
         </div>
@@ -108,10 +105,10 @@ class BannerExperiencias extends Component {
   }
 }
 
-class PagInicio extends Component {
+class PageHome extends Component {
   render() {
     return (
-      <div className="pagInicio">
+      <div className="PageHome">
         <div className="container-fluid p-0">
           <iframe
             width="100%"
@@ -123,12 +120,12 @@ class PagInicio extends Component {
             allowfullscreen
           ></iframe>
         </div>
-        <BannerParques />
-        <BannerInformativo />
-        <BannerExperiencias />
+        <BannerParks />
+        <BannerInfo />
+        <BannerExperience />
       </div>
     );
   }
 }
 
-export default PagInicio;
+export default PageHome;

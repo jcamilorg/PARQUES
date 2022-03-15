@@ -1,4 +1,4 @@
-.pagInicio {
+.PageHome {
   text-align: center;
   background-color: #fff;
 }
@@ -21,7 +21,7 @@
   font-size: 35px;
 }
 
-.BannerParques .gridParques {
+.BannerParques .gridParks {
   position: relative;
   top: -70px;
 }
@@ -35,7 +35,7 @@
   padding: 15px 70px;
 }
 
-.BannerInformativo {
+.BannerInfo {
   background-image: url(../../../public/Assets/fondos/bg-banner-informativo.svg);
   background-size: cover;
   background-color: #325962;
@@ -57,7 +57,7 @@
   background-color: #95d043;
 }
 
-.BannerInformativo .containerInformate .titleRounded {
+.BannerInfo .containerInformate .titleRounded {
   background-color: #18a69d;
 }
 
@@ -94,7 +94,7 @@
   background-color: #18a69d;
 }
 
-.BannerExperiencias {
+.BannerExperience {
   background-color: #fff;
   padding-top: 5%;
   padding-bottom: 30%;

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Slider from "./Utils/Slider";
-import Titulo from "./Utils/BotonNombreParques";
-import { SliderReservas } from "./Utils/InformacionParques";
+import Titulo from "./Utils/TitlePark";
+import { SliderBookings } from "./Utils/InfoParks";
 
-const CardsOfReservas = SliderReservas.map((item) => {
+const CardsOfBookings = SliderBookings.map((item) => {
   return (
-    <CardOfReserva
+    <CardOfBooking
       title={item.title}
       description={item.description}
       imgSrc={item.imgSrc}
@@ -14,7 +14,7 @@ const CardsOfReservas = SliderReservas.map((item) => {
   );
 });
 
-function CardOfReserva(props) {
+function CardOfBooking(props) {
   return (
     <div className="container d-flex flex-column align-items-center border shadow-lg rounded-3 justify-content-between">
       <div className="d-flex flex-column align-items-center">
@@ -29,7 +29,7 @@ function CardOfReserva(props) {
     </div>
   );
 }
-export default class Reservas extends Component {
+export default class PageBookings extends Component {
   render() {
     return (
       <div className="ContainerMainTitle" style={background}>
@@ -45,7 +45,7 @@ export default class Reservas extends Component {
           </p>
           <div className="row justify-content-center p-5">
             <div className="col-10 col-md-8 col-lg-5  pb-5 font-sans-serif">
-              <Slider data={CardsOfReservas} id="slider_Horarios" />
+              <Slider data={CardsOfBookings} id="slider_Horarios" />
             </div>
           </div>
         </div>

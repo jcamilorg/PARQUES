@@ -18,7 +18,7 @@
 }
 /* Estilos para el Grid que muestra los parques*/
 
-.gridParques {
+.gridParks {
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -39,11 +39,11 @@
   height: 200px;
 }
 
-.ImgColibri {
+.Img-hummingbird {
   position: absolute;
 }
 
-.ImgColibri img {
+.Img-hummingbird img {
   position: relative;
   top: -30px;
   left: -90px;
@@ -61,25 +61,25 @@
   width: 190px;
 }
 
-.CardOfParque .top-menos-20px {
+.CardOfParque .top-negative-20px {
   position: relative;
   top: -20px;
 }
 
-.gridParques .CardOfParque .Content {
+.gridParks .CardOfParque .Content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-.gridParques .CardOfParque .description {
+.gridParks .CardOfParque .description {
   margin-top: -5px;
   height: 80px;
   overflow: scroll;
 }
 
-.gridParques .CardOfParque .description::-webkit-scrollbar {
+.gridParks .CardOfParque .description::-webkit-scrollbar {
   display: none;
 }
 
@@ -94,7 +94,7 @@
   text-shadow: 3px 3px 10px black;
 }
 
-.separador-car {
+.hr-car {
   border: none;
   background-color: #18a69d;
   padding: 3px 0;

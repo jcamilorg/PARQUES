@@ -6,14 +6,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Components
 import HeaderParques from "./Components/HeaderParques";
 import FooterParques from "./Components/FooterParques";
-import PagInicio from "./Components/PagInicio";
-import PagNuestrosParques from "./Components/PagNuestrosParques";
-import PagQueHacer from "./Components/PagQueHacer";
-import PagHorariosTarifas from "./Components/PagHorariosTarifas";
-import PagParaTenerEnCuenta from "./Components/PagParaTenerEnCuenta";
-import PagPreguntasFrecuentes from "./Components/PagPreguntasFrecuentes";
-import PagReservas from "./Components/PagReservas";
-import PagContactanos from "./Components/PagContactanos";
+import PageHome from "./Components/PageHome";
+import PageOurParks from "./Components/PageOurParks";
+import PageWhatToDo from "./Components/PageWhatToDo";
+import PageSchedulesAndRates from "./Components/PageSchedulesAndRates";
+import PagParaTenerEnCuenta from "./Components/PageToKeepInMind";
+import PagPreguntasFrecuentes from "./Components/PageFrequentlyQuestions";
+import PagReservas from "./Components/PageBookings";
+import PageContact from "./Components/PageContact";
 
 export default function App() {
   return (
@@ -21,22 +21,22 @@ export default function App() {
       <Router>
         <HeaderParques />
         <Switch>
-          <Route exact path="/" component={PagInicio} />
+          <Route exact path="/" component={PageHome} />
           <Route
             exact
             path="/Pagina-web-parques-on-react"
-            component={PagInicio}
+            component={PageHome}
           />
-          <Route path="/nuestros-parques" component={PagNuestrosParques} />
-          <Route path="/que-hacer" component={PagQueHacer} />
-          <Route path="/horarios-y-tarifas" component={PagHorariosTarifas} />
+          <Route path="/nuestros-parques" component={PageOurParks} />
+          <Route path="/que-hacer" component={PageWhatToDo} />
+          <Route path="/horarios-y-tarifas" component={PageSchedulesAndRates} />
           <Route path="/para-tener-encuenta" component={PagParaTenerEnCuenta} />
           <Route
             path="/preguntas-frecuentes"
             component={PagPreguntasFrecuentes}
           />
           <Route path="/reservas" component={PagReservas} />
-          <Route path="/contactanos" component={PagContactanos} />
+          <Route path="/contactanos" component={PageContact} />
         </Switch>
         <FooterParques />
       </Router>

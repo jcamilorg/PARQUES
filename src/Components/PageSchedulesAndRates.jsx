@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Slider from "./Utils/Slider";
-import Titulo from "./Utils/BotonNombreParques";
-import InfoParques from "./Utils/InformacionParques";
+import Titulo from "./Utils/TitlePark";
+import InfoParks from "./Utils/InfoParks";
 
-const CardsOfhorario = InfoParques.map((item) => {
+const CardsOfhorario = InfoParks.map((item) => {
   return (
     <CardOfHorario
       title={item.title}
-      horario={item.horario}
-      description={item.horario_description}
+      horario={item.schedule}
+      description={item.schedule_description}
       imgSrc={item.imgSrc}
     />
   );
@@ -29,7 +29,7 @@ function CardOfHorario(props) {
     </div>
   );
 }
-export default class PagHorariosTarifas extends Component {
+export default class PageSchedulesAndRates extends Component {
   render() {
     return (
       <div className="ContainerMainTitle" style={background}>

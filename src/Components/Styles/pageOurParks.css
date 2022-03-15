@@ -1,28 +1,28 @@
-.NuestrosParques {
+.OurParks {
   background-color: #fff;
   background-image: url("https://p4.wallpaperbetter.com/wallpaper/375/580/993/sky-tropics-sea-water-horizon-waves-ocean-wallpaper-preview.jpg");
   background-size: 100%;
 }
 
-.NuestrosParques .gridParques .CardOfParque {
+.OurParks .gridParks .CardOfParque {
   box-shadow: none;
 }
 
-.NuestrosParques .gridParques img {
+.OurParks .gridParks img {
   border-radius: 8px;
 }
 
-.NuestrosParques .gridParques .link {
+.OurParks .gridParks .link {
   color: #38b4b6;
   text-decoration: underline;
   font-size: 18px;
   font-weight: 500;
 }
 
-.NuestrosParques .gridParques .title {
+.OurParks .gridParks .title {
   background-color: #00799f;
 }
 
-.NuestrosParques .gridParques .description {
+.OurParks .gridParks .description {
   height: 0;
 }

@@ -65,6 +65,10 @@ header {
   text-decoration: none;
 }
 
+.bg-blue-navbar {
+  background-color: #045861;
+}
+
 .navbar-nav a:hover {
   background-color: #045861;
 }

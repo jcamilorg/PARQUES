@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-function TableParaTenerEncuenta() {
+function TableToKeepInMind() {
   return (
     <table className="table table-striped mb-5">
       <tr className="text-light">
@@ -169,7 +169,7 @@ function TableParaTenerEncuenta() {
   );
 }
 
-export default class PagParaTenerEnCuenta extends Component {
+export default class PageToKeepInMind extends Component {
   render() {
     return (
       <div className="ContainerMainTitle" style={background}>
@@ -185,7 +185,7 @@ export default class PagParaTenerEnCuenta extends Component {
                 memorable, por eso te invitamos a seguir estas recomendaciones
                 para tu seguridad y la de tus acompañantes:
               </p>
-              <TableParaTenerEncuenta />
+              <TableToKeepInMind />
             </div>
           </div>
         </div>

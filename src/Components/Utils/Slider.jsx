@@ -1,9 +1,9 @@
 import React from "react";
 //Importacion de imagenes
-import btn_izq from "../Assets/iconos/boton-slider-izquierda.png";
-import btn_der from "../Assets/iconos/boton-slider-derecha.png";
+import btn_izq from "../Assets/icons/btn-slider-izquierda.png";
+import btn_der from "../Assets/icons/btn-slider-derecha.png";
 
-function CarrouselItem(props) {
+function SliderItem(props) {
   var CaroulseClass = "carousel-item";
   if (props.active) {
     CaroulseClass = "carousel-item active";
@@ -19,10 +19,10 @@ function CarrouselItem(props) {
   );
 }
 
-function CarrouselAuto(props) {
+function SliderAuto(props) {
   const Items = props.data;
   const Carditems = Items.map((card, index) => (
-    <CarrouselItem item={card} active={index === 0 ? true : false} />
+    <SliderItem item={card} active={index === 0 ? true : false} />
   ));
 
   const idTarget = "#" + props.id;
@@ -78,4 +78,4 @@ function CarrouselAuto(props) {
   );
 }
 
-export default CarrouselAuto;
+export default SliderAuto;

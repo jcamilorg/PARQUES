@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 //Importacion de imagenes
-import colibri from "../Assets/fondos/Colibri.png";
+import hummingbird from "../Assets/backgrounds/hummingbird.png";
 
-export default function BotonNombreParques(props) {
+export default function TitlePark(props) {
   var bg = " bg-btn-acua";
   switch (props.bg) {
     case 1:
@@ -40,8 +40,8 @@ export default function BotonNombreParques(props) {
         <Link to={props.linkParque} class="text-decoration-none ">
           <h3 className={classTitle}>{props.title}</h3>
         </Link>
-        <div className="ImgColibri d-none d-sm-none d-md-inline">
-          <img width="70px" src={colibri} alt=" " />
+        <div className="Img-hummingbird d-none d-sm-none d-md-inline">
+          <img width="70px" src={hummingbird} alt=" " />
         </div>
       </div>
     </React.Fragment>

@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Styles/headerStyle.css";
 //Importacion de imagenes
-import LogoParques from "./Assets/logos/Logo_parques.svg";
+import LogoParks from "./Assets/logos/Logo_parques.svg";
 
 export default function HeaderParques() {
   return (
@@ -21,7 +21,7 @@ export default function HeaderParques() {
             <a href="#">
               <img
                 className="ContainerImgHeader"
-                src={LogoParques}
+                src={LogoParks}
                 width="180px"
               />
               <div className="SpaceContainerImgHeader"></div>
@@ -41,35 +41,63 @@ export default function HeaderParques() {
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav mx-auto ">
-                <Link to="/">Inicio</Link>
+                <NavLink exact activeClassName="bg-blue-navbar" to="/">
+                  Inicio
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/nuestros-parques">Parques</Link>
+                <NavLink
+                  activeClassName="bg-blue-navbar"
+                  to="/nuestros-parques"
+                >
+                  Parques
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/que-hacer/0">Qué hacer</Link>
+                <NavLink activeClassName="bg-blue-navbar" to="/que-hacer/0">
+                  Qué hacer
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/horarios-y-tarifas">Horarios y tarifas</Link>
+                <NavLink
+                  activeClassName="bg-blue-navbar"
+                  to="/horarios-y-tarifas"
+                >
+                  Horarios y tarifas
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/para-tener-encuenta">Para tener en cuenta</Link>
+                <NavLink
+                  activeClassName="bg-blue-navbar"
+                  to="/para-tener-encuenta"
+                >
+                  Para tener en cuenta
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/preguntas-frecuentes">Pregutas frecuentes</Link>
+                <NavLink
+                  activeClassName="bg-blue-navbar"
+                  to="/preguntas-frecuentes"
+                >
+                  Pregutas frecuentes
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/reservas">Reservas</Link>
+                <NavLink activeClassName="bg-blue-navbar" to="/reservas">
+                  Reservas
+                </NavLink>
                 <div className="VerticalLine d-none d-lg-block"></div>
                 <hr className="d-lg-none p-0 m-0" />
 
-                <Link to="/contactanos">Contáctanos</Link>
+                <NavLink activeClassName="bg-blue-navbar" to="/contactanos">
+                  Contáctanos
+                </NavLink>
                 <hr className="d-lg-none p-0 m-0" />
               </div>
             </div>

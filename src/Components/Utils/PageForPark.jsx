@@ -1,6 +1,6 @@
 import React from "react";
-import Slider from "./Utils/Slider";
-import Titulo from "./Utils/BotonNombreParques";
+import Slider from "./Slider";
+import Title from "./TitlePark";
 
 var links = [
   "https://bogota.gov.co/sites/default/files/styles/1050px/public/2019-06/parque_engativa_2.jpg",
@@ -8,7 +8,7 @@ var links = [
   "https://parquesalegres.org/wp-content/uploads/2017/07/Parques.jpg",
 ];
 
-function IconoLink(props) {
+function IconLink(props) {
   return (
     <div className="d-flex flex-column align-items-center col-6 col-sm-4 col-md-2 p-2 my-3 border-end border-start border-2">
       <img src={props.imgsrc} width="70px" height="50px" alt="..." />
@@ -17,34 +17,34 @@ function IconoLink(props) {
   );
 }
 
-function InfoParque(props) {
+function PagePark(props) {
   return (
     <div className="container  w-50">
-      <Titulo title={props.title} />
-      <hr className="separador-car" />
+      <Title title={props.title} />
+      <hr className="hr-car" />
 
       <Slider data={props.sliderImages} id="sliderParque" />
 
       <div class="row justify-content-center text-dark">
-        <IconoLink
+        <IconLink
           description="¿Cómo llegar?"
-          imgsrc={require("./Assets/iconos/icono-mapa.png")}
+          imgsrc={require("../Assets/icons/icono-mapa.png")}
         />
-        <IconoLink
+        <IconLink
           description="Horario"
-          imgsrc={require("./Assets/iconos/icono-horario.png")}
+          imgsrc={require("../Assets/icons/icono-horario.png")}
         />
-        <IconoLink
+        <IconLink
           description="Tour 3D"
-          imgsrc={require("./Assets/iconos/icono-tour-360.png")}
+          imgsrc={require("../Assets/icons/icono-tour-360.png")}
         />
-        <IconoLink
+        <IconLink
           description="Mapa del parque"
-          imgsrc={require("./Assets/iconos/icono-mapa-parque.png")}
+          imgsrc={require("../Assets/icons/icono-mapa-parque.png")}
         />
-        <IconoLink
+        <IconLink
           description="¿Qué hacer?"
-          imgsrc={require("./Assets/iconos/incono-que-hacer.png")}
+          imgsrc={require("../Assets/icons/incono-que-hacer.png")}
         />
       </div>
 
@@ -61,4 +61,4 @@ function InfoParque(props) {
   );
 }
 
-export default InfoParque;
+export default PagePark;

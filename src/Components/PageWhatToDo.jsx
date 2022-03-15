@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./Styles/pagQueHacer.css";
-import { ContenidoQueHacer } from "./Utils/InformacionParques";
+import "./Styles/pageWhatToDo.css";
+import { ContentWhatToDo } from "./Utils/InfoParks";
 import { Switch, Route, Link, useParams } from "react-router-dom";
 
-function CardQueHacer(props) {
+function CardWhatToDo(props) {
   return (
     <div className="d-flex flex-column p-2 h-100  justify-content-center align-items-start shadow-sm hover-orange text-white">
       <p
@@ -19,7 +19,7 @@ function CardQueHacer(props) {
   );
 }
 
-function Actividad() {
+function Activity() {
   let { id } = useParams();
   var index;
   if (id >= 0 || id < 8) {
@@ -28,23 +28,22 @@ function Actividad() {
     index = 0;
   }
   //let imgSrc = ContenidoQueHacer[0].icono.toString();
-  var imgSrc = "./Assets/iconos/Cabañas_QH.png";
+  var imgSrc = "./Assets/icons/Cabañas_QH.png";
 
   return (
     <div className="text-start pt-5 text-dark py-5 px-4 mb-3 shadow">
       <hr className="line-title" />
       <h2 className="fs-4 d-flex">
-        {ContenidoQueHacer[index].titulo_actividad}{" "}
-        {ContenidoQueHacer[index].icono}
+        {ContentWhatToDo[index].title_activity} {ContentWhatToDo[index].icon}
       </h2>
       <br />
       <br />
-      {ContenidoQueHacer[index].contenido}
+      {ContentWhatToDo[index].content}
     </div>
   );
 }
 
-export default class PagQueHacer extends Component {
+export default class PageWhatToDo extends Component {
   render() {
     return (
       <div className="ContainerMainTitle">
@@ -57,42 +56,42 @@ export default class PagQueHacer extends Component {
             <div className="col-sm-11 row col-md-5 col-lg-4">
               <div className="col-6 my-2">
                 <Link to="/que-hacer/0">
-                  <CardQueHacer description="Zona de Camping" />
+                  <CardWhatToDo description="Zona de Camping" />
                 </Link>
               </div>
               <div className="col-6 my-2">
                 <Link to="/que-hacer/1">
-                  <CardQueHacer description="Kioscos y Hornillas" />
+                  <CardWhatToDo description="Kioscos y Hornillas" />
                 </Link>
               </div>
               <div className="col-6 my-2 ">
                 <Link to="/que-hacer/2">
-                  <CardQueHacer description="Visitas guiadas Senderismo" />
+                  <CardWhatToDo description="Visitas guiadas Senderismo" />
                 </Link>
               </div>
               <div className="col-6 my-2">
                 <Link to="/que-hacer/3">
-                  <CardQueHacer description="Prestamo de bicicletas" />
+                  <CardWhatToDo description="Prestamo de bicicletas" />
                 </Link>
               </div>
               <div className="col-6 my-2">
                 <Link to="/que-hacer/4">
-                  <CardQueHacer description="Restaurantes" />
+                  <CardWhatToDo description="Restaurantes" />
                 </Link>
               </div>
               <div className="col-6 my-2">
                 <Link to="/que-hacer/5">
-                  <CardQueHacer description="Navegación" />
+                  <CardWhatToDo description="Navegación" />
                 </Link>
               </div>
               <div className="col-6 my-2 ">
                 <Link to="/que-hacer/6">
-                  <CardQueHacer description="Alquiler de cabañas" />
+                  <CardWhatToDo description="Alquiler de cabañas" />
                 </Link>
               </div>
               <div className="col-6 my-2">
                 <Link to="/que-hacer/7">
-                  <CardQueHacer description="Pesca deportiva" />
+                  <CardWhatToDo description="Pesca deportiva" />
                 </Link>
               </div>
             </div>
@@ -100,7 +99,7 @@ export default class PagQueHacer extends Component {
             {/* Contenendor de informacion */}
             <div className="col-sm-11 col-md-5 col-lg-4">
               <Switch>
-                <Route path="/que-hacer/:id" children={<Actividad />} />
+                <Route path="/que-hacer/:id" children={<Activity />} />
               </Switch>
               <div className="d-flex justify-content-around">
                 <button className="btn btn-secondary">💻 RESERVAS</button>

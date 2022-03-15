@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class PagContactanos extends Component {
+export default class PageContact extends Component {
   render() {
     return (
       <div className="ContainerMainTitle" style={background}>

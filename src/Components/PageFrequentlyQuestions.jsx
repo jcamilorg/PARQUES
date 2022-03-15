@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-function Acordeon() {
+function Acordion() {
   return (
     <div class="accordion" id="accordionExample">
       <div class="accordion-item my-2">
@@ -141,7 +141,7 @@ function Acordeon() {
   );
 }
 
-export default class PagPreguntasFrecuentes extends Component {
+export default class PageFrequentlyQuestions extends Component {
   render() {
     return (
       <div className="ContainerMainTitle" style={background}>
@@ -151,7 +151,7 @@ export default class PagPreguntasFrecuentes extends Component {
         <div className="ContainerRoundedTop"></div>
         <div className="container-fluid bg-white">
           <div className="container px-5 pb-5 pt-2 w-75">
-            <Acordeon />
+            <Acordion />
             <h2 className="text-dark-acua mt-5 fs-1">
               <b>¿Cómo </b>llegar?
             </h2>

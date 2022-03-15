@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Titulo from "./Utils/BotonNombreParques";
+import Title from "./TitlePark";
 //Importacion de imagenes
-import ver_mas from "./Assets/iconos/btn-ver-mas.svg";
+import view_more from "../Assets/icons/btn-ver-mas.svg";
 
 function CardOfParque(props) {
   return (
@@ -11,17 +11,17 @@ function CardOfParque(props) {
         <img src={props.imgsrc} />
       </div>
 
-      <Titulo
+      <Title
         title={props.title}
         linkParque={props.linkParque}
-        addClass={"top-menos-20px"}
+        addClass={"top-negative-20px"}
         bg={props.bg}
       />
 
       <p className="description">{props.description}</p>
       <Link to={props.linkParque} class="text-decoration-none">
         {/*<div className="link">Ver más ➕</div>*/}
-        <img width="100px" src={ver_mas} />
+        <img width="100px" src={view_more} />
       </Link>
     </div>
   );
