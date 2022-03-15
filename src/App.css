@@ -223,16 +223,12 @@ a {
 }
 
 /* Correcion de error de negrilla en las fuentes*/
+
 b {
-  font-family: Antipasto-pro-extraBold;
+  font-weight: 900;
 }
 
 .font-sans-serif {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
-}
-
-.font-sans-serif b {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
 }
