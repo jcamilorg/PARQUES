@@ -329,7 +329,13 @@ var ContenidoQueHacer = [
         Zona <b> Camping</b>{" "}
       </span>
     ),
-    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Cabañas_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         <p>
@@ -365,7 +371,13 @@ var ContenidoQueHacer = [
         Kioscos y <b>Hornillas</b>
       </span>
     ),
-    icono: "../../../Assets/iconos/Parrilas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Parrilas_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         <b>De que trata</b>
@@ -400,7 +412,13 @@ var ContenidoQueHacer = [
         <br /> <b>Senderismo</b>
       </span>
     ),
-    icono: "../../../Assets/iconos/Senderismo_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Senderismo_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         <p>
@@ -429,7 +447,13 @@ var ContenidoQueHacer = [
         <b>bicicletas</b>
       </span>
     ),
-    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Senderismo_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         Comparte junto a tus amigos, las{" "}
@@ -460,7 +484,13 @@ var ContenidoQueHacer = [
         <b>Restaurantes</b>
       </span>
     ),
-    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Senderismo_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         Comparte junto a tus amigos, las{" "}
@@ -492,7 +522,13 @@ var ContenidoQueHacer = [
         <b>Navegación</b>
       </span>
     ),
-    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Senderismo_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         Comparte junto a tus amigos, las{" "}
@@ -523,7 +559,13 @@ var ContenidoQueHacer = [
         Alquiler de <br /> <b>Cabañas</b>
       </span>
     ),
-    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Senderismo_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         Comparte junto a tus amigos, las{" "}
@@ -555,7 +597,13 @@ var ContenidoQueHacer = [
         <br /> deportiva
       </span>
     ),
-    icono: "../../../Assets/iconos/Cabañas_QH.png",
+    icono: (
+      <img
+        className="ms-auto me-4"
+        width="150px"
+        src={require("../Assets/iconos/Senderismo_QH.png")}
+      />
+    ),
     contenido: (
       <div>
         Comparte junto a tus amigos, las{" "}

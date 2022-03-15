@@ -27,17 +27,15 @@ function Actividad() {
   } else {
     index = 0;
   }
+  //let imgSrc = ContenidoQueHacer[0].icono.toString();
+  var imgSrc = "./Assets/iconos/Cabañas_QH.png";
 
   return (
     <div className="text-start pt-5 text-dark py-5 px-4 mb-3 shadow">
       <hr className="line-title" />
       <h2 className="fs-4 d-flex">
         {ContenidoQueHacer[index].titulo_actividad}{" "}
-        <img
-          className="ms-auto me-4"
-          width="150px"
-          src={ContenidoQueHacer[index].icono}
-        />
+        {ContenidoQueHacer[index].icono}
       </h2>
       <br />
       <br />
