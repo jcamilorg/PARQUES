@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pagina-web-parques-on-react/static/css/main.afaf18ac.css",
-    "main.js": "/Pagina-web-parques-on-react/static/js/main.e5822da4.js",
+    "main.css": "/Pagina-web-parques-on-react/static/css/main.701daa8a.css",
+    "main.js": "/Pagina-web-parques-on-react/static/js/main.f649f1fa.js",
     "static/media/imagen fondo opiniones.png": "/Pagina-web-parques-on-react/static/media/imagen fondo opiniones.2e265a4698eb6a803744.png",
     "static/media/Antipasto-Pro-ExtraLight-trial.ttf": "/Pagina-web-parques-on-react/static/media/Antipasto-Pro-ExtraLight-trial.e891c28d2edd658aab88.ttf",
     "static/media/Antipasto-Pro-ExtraBold-trial.ttf": "/Pagina-web-parques-on-react/static/media/Antipasto-Pro-ExtraBold-trial.98eb5eceed2a804e56f9.ttf",
@@ -12,7 +12,7 @@
     "static/media/Senderismo_QH.png": "/Pagina-web-parques-on-react/static/media/Senderismo_QH.900f3a32465556fe083e.png",
     "static/media/MapaParques.png": "/Pagina-web-parques-on-react/static/media/MapaParques.6cabb04de8dcaf47c235.png",
     "static/media/Cabañas_QH.png": "/Pagina-web-parques-on-react/static/media/Cabañas_QH.fe9084ccc6fd18ded01d.png",
-    "static/media/Colibri.png": "/Pagina-web-parques-on-react/static/media/Colibri.c90e87ef3c6432416890.png",
+    "static/media/hummingbird.png": "/Pagina-web-parques-on-react/static/media/hummingbird.c90e87ef3c6432416890.png",
     "static/media/Logo_parques.svg": "/Pagina-web-parques-on-react/static/media/Logo_parques.f53ef7ccfeeaa1c92c87a661840fbfd9.svg",
     "static/media/footer_Logo_CAR.svg": "/Pagina-web-parques-on-react/static/media/footer_Logo_CAR.5176582fa2b88a883d93c441bed7d280.svg",
     "static/media/btn-ver-mas.svg": "/Pagina-web-parques-on-react/static/media/btn-ver-mas.9bace65a6329e6333b9b0ae06715fab8.svg",
@@ -31,11 +31,11 @@
     "static/media/footer_Youtube.svg": "/Pagina-web-parques-on-react/static/media/footer_Youtube.81efa1dc0de14e0fd1ee041aa3d296b3.svg",
     "static/media/footer_facebook.svg": "/Pagina-web-parques-on-react/static/media/footer_facebook.2c3b486e20a2a2123efe7647b27e6822.svg",
     "static/media/Header.svg": "/Pagina-web-parques-on-react/static/media/Header.77f0dbc8d1b1d4590f45.svg",
-    "main.afaf18ac.css.map": "/Pagina-web-parques-on-react/static/css/main.afaf18ac.css.map",
-    "main.e5822da4.js.map": "/Pagina-web-parques-on-react/static/js/main.e5822da4.js.map"
+    "main.701daa8a.css.map": "/Pagina-web-parques-on-react/static/css/main.701daa8a.css.map",
+    "main.f649f1fa.js.map": "/Pagina-web-parques-on-react/static/js/main.f649f1fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.afaf18ac.css",
-    "static/js/main.e5822da4.js"
+    "static/css/main.701daa8a.css",
+    "static/js/main.f649f1fa.js"
   ]
 }
