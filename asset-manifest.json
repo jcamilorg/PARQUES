@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PARQUES/static/css/main.36a3b8e7.css",
-    "main.js": "/PARQUES/static/js/main.04b0cd63.js",
+    "main.js": "/PARQUES/static/js/main.4cbcdc24.js",
     "static/media/imagen fondo opiniones.png": "/PARQUES/static/media/imagen fondo opiniones.2e265a4698eb6a803744.png",
     "static/media/Antipasto-Pro-ExtraLight-trial.ttf": "/PARQUES/static/media/Antipasto-Pro-ExtraLight-trial.e891c28d2edd658aab88.ttf",
     "static/media/Antipasto-Pro-ExtraBold-trial.ttf": "/PARQUES/static/media/Antipasto-Pro-ExtraBold-trial.98eb5eceed2a804e56f9.ttf",
@@ -25,17 +25,17 @@
     "static/media/bg-btn-blue.svg": "/PARQUES/static/media/bg-btn-blue.170e25a779a2dcb6d6ba.svg",
     "static/media/footer_Instagram.svg": "/PARQUES/static/media/footer_Instagram.3339b2ca7ed5229569c974abadc51a31.svg",
     "static/media/bg-btn-dark-blue.svg": "/PARQUES/static/media/bg-btn-dark-blue.9651134d2eaaaf8856a0.svg",
-    "index.html": "/PARQUES/index.html",
     "static/media/bg-btn-green.svg": "/PARQUES/static/media/bg-btn-green.38fb0eb30fd3ca2d4c0d.svg",
     "static/media/bg-Footer.svg": "/PARQUES/static/media/bg-Footer.f7de7215c77eabb5cc18.svg",
+    "index.html": "/PARQUES/index.html",
     "static/media/footer_Youtube.svg": "/PARQUES/static/media/footer_Youtube.81efa1dc0de14e0fd1ee041aa3d296b3.svg",
     "static/media/footer_facebook.svg": "/PARQUES/static/media/footer_facebook.2c3b486e20a2a2123efe7647b27e6822.svg",
     "static/media/Header.svg": "/PARQUES/static/media/Header.77f0dbc8d1b1d4590f45.svg",
     "main.36a3b8e7.css.map": "/PARQUES/static/css/main.36a3b8e7.css.map",
-    "main.04b0cd63.js.map": "/PARQUES/static/js/main.04b0cd63.js.map"
+    "main.4cbcdc24.js.map": "/PARQUES/static/js/main.4cbcdc24.js.map"
   },
   "entrypoints": [
     "static/css/main.36a3b8e7.css",
-    "static/js/main.04b0cd63.js"
+    "static/js/main.4cbcdc24.js"
   ]
 }
