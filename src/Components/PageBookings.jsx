@@ -19,12 +19,17 @@ function CardOfBooking(props) {
     <div className="container d-flex flex-column align-items-center border shadow-lg rounded-3 justify-content-between">
       <div className="d-flex flex-column align-items-center">
         <h3 className="title my-4 p-3 w-75 ">{props.title}</h3>
-        <img className="w-100" height="250px" src={props.imgSrc} />{" "}
+        <img
+          className="w-100"
+          height="250px"
+          src={props.imgSrc}
+          alt="..."
+        />{" "}
       </div>
       <p className="px-5 pt-3 pb-4">{props.description}</p>
 
       <Link className="text-decoration-none text-info pb-5 " to="./reservas">
-        Reservar <i class="fa-solid fa-circle-plus"></i>
+        Reservar <i className="fa-solid fa-circle-plus"></i>
       </Link>
     </div>
   );

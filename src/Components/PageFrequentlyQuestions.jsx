@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 function Acordion() {
   return (
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item my-2">
-        <h2 class="accordion-header " id="headingOne">
+    <div className="accordion" id="accordionExample">
+      <div className="accordion-item my-2">
+        <h2 className="accordion-header " id="headingOne">
           <button
-            class="accordion-button bg-acua "
+            className="accordion-button bg-acua "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseOne"
@@ -18,11 +18,11 @@ function Acordion() {
         </h2>
         <div
           id="collapseOne"
-          class="accordion-collapse collapse show"
+          className="accordion-collapse collapse show"
           aria-labelledby="headingOne"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             No contamos con sistema de reserva de kioskos o parrillas en ninguno
             de nuestros parques. Puedes alquilar estos elementos a tu llegada al
             parque, en taquilla. Te recomendamos llegar con tiempo suficiente,
@@ -31,10 +31,10 @@ function Acordion() {
           </div>
         </div>
       </div>
-      <div class="accordion-item my-2">
-        <h2 class="accordion-header" id="headingTwo">
+      <div className="accordion-item my-2">
+        <h2 className="accordion-header" id="headingTwo">
           <button
-            class="accordion-button collapsed bg-acua "
+            className="accordion-button collapsed bg-acua "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseTwo"
@@ -46,21 +46,21 @@ function Acordion() {
         </h2>
         <div
           id="collapseTwo"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="headingTwo"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             No disponemos de datáfonos en ninguno de nuestros parques, dadas las
             condiciones geográficas que imposibilitan la señal y conexión a
             internet.
           </div>
         </div>
       </div>
-      <div class="accordion-item my-2">
-        <h2 class="accordion-header" id="headingThree">
+      <div className="accordion-item my-2">
+        <h2 className="accordion-header" id="headingThree">
           <button
-            class="accordion-button collapsed bg-acua "
+            className="accordion-button collapsed bg-acua "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseThree"
@@ -72,11 +72,11 @@ function Acordion() {
         </h2>
         <div
           id="collapseThree"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="headingThree"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             Tu mascota es bienvenida al parque <b>EXCEPTO</b> en el parque
             Laguna Cacique Guatavita, donde NO está permitido el ingreso de
             ningún tipo de mascota.
@@ -84,10 +84,10 @@ function Acordion() {
         </div>
       </div>
 
-      <div class="accordion-item my-2">
-        <h2 class="accordion-header" id="headingFour">
+      <div className="accordion-item my-2">
+        <h2 className="accordion-header" id="headingFour">
           <button
-            class="accordion-button collapsed bg-acua "
+            className="accordion-button collapsed bg-acua "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseFour"
@@ -100,11 +100,11 @@ function Acordion() {
         </h2>
         <div
           id="collapseFour"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="headingFour"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             Podrás adquirir un descuento especial, únicamente entre semana (de
             martes a viernes) si el grupo es mayor a 26 personas. Los fines de
             semana no se aplican tarifas preferenciales.
@@ -112,10 +112,10 @@ function Acordion() {
         </div>
       </div>
 
-      <div class="accordion-item my-2">
-        <h2 class="accordion-header" id="headingFive">
+      <div className="accordion-item my-2">
+        <h2 className="accordion-header" id="headingFive">
           <button
-            class="accordion-button collapsed bg-acua "
+            className="accordion-button collapsed bg-acua "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseFive"
@@ -127,11 +127,11 @@ function Acordion() {
         </h2>
         <div
           id="collapseFive"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="headingFive"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             No. Únicamente podemos alquilarte el espacio para que instales tu
             carpa.
           </div>
@@ -164,7 +164,7 @@ export default class PageFrequentlyQuestions extends Component {
               datos importantes para tu viaje!
             </p>
             <div className="mt-4 container-fluid">
-              <img src={require("./Assets/Img/MapaParques.png")} />
+              <img src={require("./Assets/Img/MapaParques.png")} alt="..." />
             </div>
           </div>
         </div>

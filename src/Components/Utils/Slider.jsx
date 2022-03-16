@@ -4,7 +4,7 @@ import btn_izq from "../Assets/icons/btn-slider-izquierda.png";
 import btn_der from "../Assets/icons/btn-slider-derecha.png";
 
 function SliderItem(props) {
-  var CaroulseClass = "carousel-item";
+  let CaroulseClass = "carousel-item";
   if (props.active) {
     CaroulseClass = "carousel-item active";
   }
@@ -22,7 +22,7 @@ function SliderItem(props) {
 function SliderAuto(props) {
   const Items = props.data;
   const Carditems = Items.map((card, index) => (
-    <SliderItem item={card} active={index === 0 ? true : false} />
+    <SliderItem key={index} item={card} active={index === 0 ? true : false} />
   ));
 
   const idTarget = "#" + props.id;
@@ -30,47 +30,47 @@ function SliderAuto(props) {
   return (
     <div
       id={props.id}
-      class="carousel slide carousel-dark"
+      className="carousel slide carousel-dark"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">{Carditems}</div>
+      <div className="carousel-inner">{Carditems}</div>
 
       <button
-        class="carousel-control-prev "
+        className="carousel-control-prev "
         type="button"
         data-bs-target={idTarget}
         data-bs-slide="prev"
       >
         <span
-          class="carousel-control-prev-icon visually-hidden"
+          className="carousel-control-prev-icon visually-hidden"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="visually-hidden">Previous</span>
         <img
           style={{ marginRight: "80%" }}
           width="25px"
           src={btn_izq}
-          onerror="this.style.display='none'"
+          onError={() => "this.style.display='none'"}
           alt="<"
         />
       </button>
 
       <button
-        class="carousel-control-next "
+        className="carousel-control-next "
         type="button"
         data-bs-target={idTarget}
         data-bs-slide="next"
       >
         <span
-          class="carousel-control-next-icon visually-hidden"
+          className="carousel-control-next-icon visually-hidden"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Next</span>
+        <span className="visually-hidden">Next</span>
         <img
           style={{ marginLeft: "80%" }}
           width="25px"
           src={btn_der}
-          onError="this.style.display='none'"
+          onError={() => "this.style.display='none'"}
           alt=">"
         />
       </button>

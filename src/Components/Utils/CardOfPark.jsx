@@ -4,11 +4,11 @@ import Title from "./TitlePark";
 //Importacion de imagenes
 import view_more from "../Assets/icons/btn-ver-mas.svg";
 
-function CardOfParque(props) {
+function CardOfPark(props) {
   return (
     <div className="CardOfParque col-10 col-sm-5 col-lg-3 m-2">
       <div className="ContainerImg">
-        <img src={props.imgsrc} />
+        <img src={props.imgsrc} alt="..." />
       </div>
 
       <Title
@@ -18,13 +18,13 @@ function CardOfParque(props) {
         bg={props.bg}
       />
 
-      <p className="description">{props.description}</p>
-      <Link to={props.linkParque} class="text-decoration-none">
+      <div className="description">{props.description}</div>
+      <Link to={props.linkParque} className="text-decoration-none">
         {/*<div className="link">Ver más ➕</div>*/}
-        <img width="100px" src={view_more} />
+        <img width="100px" src={view_more} alt="..." />
       </Link>
     </div>
   );
 }
 
-export default CardOfParque;
+export default CardOfPark;

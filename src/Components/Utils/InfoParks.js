@@ -1,18 +1,21 @@
-var InfoParks = [
+let InfoParks = [
   //EMBALSE NEUSA
   {
     SliderImages: [
       <img
         className="img-fluid"
         src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+        alt="..."
       />,
       <img
         className="img-fluid"
         src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+        alt="..."
       />,
       <img
         className="img-fluid"
         src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+        alt="..."
       />,
     ],
     title: "EMBALSE NEUSA",
@@ -39,14 +42,24 @@ var InfoParks = [
       </p>
     ),
     link: "/nuestros-parques/embalse-neusa",
-    imgSrc: "https://www.iagua.es/sites/default/files/lago_portada.jpg",
+    imgSrc:
+      "https://marketingsimulator.net/jgarzon/wp-content/uploads/sites/89/2016/02/Neusa.jpg",
   },
   // GUATAVITA
   {
     SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+        alt="..."
+      />,
     ],
     title: "GUATAVITA",
     title2: "Parque Laguna del Cacique Guatavita",
@@ -74,14 +87,23 @@ var InfoParks = [
     ),
     link: "/nuestros-parques/guatavita",
     imgSrc:
-      "https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2018/02/Portada-10.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d4/da/3a/view-of-the-lake-from.jpg?w=1200&h=-1&s=1",
   },
   // RIO NEUSA
   {
     SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+        alt="..."
+      />,
     ],
     title: "RÍO NEUSA",
     title2: "Parque Río Neusa",
@@ -107,14 +129,24 @@ var InfoParks = [
       </p>
     ),
     link: "/nuestros-parques/rio-neusa",
-    imgSrc: "https://i.ytimg.com/vi/XIUBuhqylUc/maxresdefault.jpg",
+    imgSrc:
+      "https://scontent.fbog2-5.fna.fbcdn.net/v/t1.6435-9/118694800_3868100993219526_1872678661838632584_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=G671jYnFKcgAX-1gDBB&_nc_ht=scontent.fbog2-5.fna&oh=00_AT8PYQG5wETwo1-6AMpZ_gbba3RmsMSJbgcBwHVg9JE90Q&oe=6255DF2D",
   },
   //PUENTE SOPO
   {
     SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+        alt="..."
+      />,
     ],
     title: "PUENTE SOPÓ",
     title2: "Parque Puente Sopó",
@@ -146,9 +178,18 @@ var InfoParks = [
   // EL HATO
   {
     SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+        alt="..."
+      />,
     ],
     title: "EL HATO",
     title2: "Parque Embalse el Hato",
@@ -179,9 +220,18 @@ var InfoParks = [
   // JUAN PABLO SEGUNDO
   {
     SliderImages: [
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg" />,
-      <img src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg" />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_hato.jpg"
+        alt="..."
+      />,
+      <img
+        src="https://parques.car.gov.co/imagenes/Nuevaprincipal_rio_neusa.jpg"
+        alt="..."
+      />,
     ],
     title: "JUAN PABLO II",
     title2: "Parque Juan Pablo II",
@@ -213,7 +263,7 @@ var InfoParks = [
   },
 ];
 
-var News = [
+let News = [
   {
     imgSrc: "https://www.car.gov.co/uploads/blog/zeQbdINWIf.jpeg",
     content:
@@ -231,7 +281,7 @@ var News = [
   },
 ];
 
-var SliderInfo = [
+let SliderInfo = [
   {
     imgSrc: "https://parques.car.gov.co/imagenes/Nuevaprincipal_neusa.jpg",
   },
@@ -243,28 +293,30 @@ var SliderInfo = [
   },
 ];
 
-var SliderExperience = [
+let SliderExperience = [
   <iframe
+    title="Post1"
     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCAR.Cundi%2Fposts%2F5608428509186757&show_text=true&width=500"
     width="500"
     height="654"
     scrolling="no"
-    frameborder="0"
-    allowfullscreen="true"
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    frameBorder="0"
+    allowFullScreen={true}
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
   ></iframe>,
   <iframe
+    title="Post2"
     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCAR.Cundi%2Fposts%2F5610234549006153&show_text=true&width=500"
     width="500"
     height="570"
     scrolling="no"
-    frameborder="0"
-    allowfullscreen="true"
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    frameBorder="0"
+    allowFullScreen={true}
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
   ></iframe>,
 ];
 
-var SliderBookings = [
+let SliderBookings = [
   {
     title: "Reserva de cabañas",
     imgSrc:
@@ -321,7 +373,7 @@ var SliderBookings = [
   },
 ];
 
-var ContentWhatToDo = [
+let ContentWhatToDo = [
   /*Zona Camping*/
   {
     title_activity: (
@@ -334,6 +386,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Cabañas_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -376,6 +429,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Parrilas_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -417,6 +471,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Senderismo_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -452,6 +507,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Senderismo_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -489,6 +545,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Senderismo_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -527,6 +584,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Senderismo_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -564,6 +622,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Senderismo_QH.png")}
+        alt="..."
       />
     ),
     content: (
@@ -602,6 +661,7 @@ var ContentWhatToDo = [
         className="ms-auto me-4"
         width="150px"
         src={require("../Assets/icons/Senderismo_QH.png")}
+        alt="..."
       />
     ),
     content: (

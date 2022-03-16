@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import hummingbird from "../Assets/backgrounds/hummingbird.png";
 
 export default function TitlePark(props) {
-  var bg = " bg-btn-acua";
+  let bg = " bg-btn-acua";
   switch (props.bg) {
     case 1:
       bg = " bg-btn-acua";
@@ -37,7 +37,7 @@ export default function TitlePark(props) {
   return (
     <React.Fragment>
       <div className={"d-flex justify-content-center " + props.addClass}>
-        <Link to={props.linkParque} class="text-decoration-none ">
+        <Link to={props.linkParque} className="text-decoration-none ">
           <h3 className={classTitle}>{props.title}</h3>
         </Link>
         <div className="Img-hummingbird d-none d-sm-none d-md-inline">

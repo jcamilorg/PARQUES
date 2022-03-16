@@ -3,18 +3,19 @@ import GridParks from "./Utils/GridParks";
 import CardOfParque from "./Utils/CardOfPark";
 import "./Styles/pageOurParks.css";
 // Components
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import PagePark from "./Utils/PageForPark";
 //informacion parques
 import InfoParks from "./Utils/InfoParks";
 
 class PageOurParks extends Component {
   render() {
-    var bg_number = 0;
-    const CardsOfParks = InfoParks.map((item) => {
+    let bg_number = 0;
+    const CardsOfParks = InfoParks.map((item, index) => {
       bg_number++;
       return (
         <CardOfParque
+          key={index}
           imgsrc={item.imgSrc}
           title={item.title}
           linkParque={item.link}

@@ -14,21 +14,21 @@ function CardWhatToDo(props) {
       >
         <b className="fs-5">{props.description}</b>
       </p>
-      <i class="fa-solid fa-circle-plus"></i>
+      <i className="fa-solid fa-circle-plus"></i>
     </div>
   );
 }
 
 function Activity() {
   let { id } = useParams();
-  var index;
+  let index;
   if (id >= 0 || id < 8) {
     index = parseInt(id);
   } else {
     index = 0;
   }
   //let imgSrc = ContenidoQueHacer[0].icono.toString();
-  var imgSrc = "./Assets/icons/Cabañas_QH.png";
+  // let imgSrc = "./Assets/icons/Cabañas_QH.png";
 
   return (
     <div className="text-start pt-5 text-dark py-5 px-4 mb-3 shadow">

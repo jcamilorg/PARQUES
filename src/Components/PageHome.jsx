@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Styles/pageHome.css";
 import GridParks from "./Utils/GridParks";
-import CardOfParque from "./Utils/CardOfPark";
+import CardOfPark from "./Utils/CardOfPark";
 import Slider from "./Utils/Slider";
 import { Link } from "react-router-dom";
 //Informacion
@@ -13,11 +13,12 @@ import InfoParques, {
 
 class BannerParks extends Component {
   render() {
-    var bg_number = 0;
-    const CardsOfParques = InfoParques.map((parque) => {
+    let bg_number = 0;
+    const CardsOfParques = InfoParques.map((parque, index) => {
       bg_number++;
       return (
-        <CardOfParque
+        <CardOfPark
+          key={index}
           imgsrc={parque.imgSrc}
           title={parque.title}
           description={parque.description_short}
@@ -45,7 +46,7 @@ class BannerParks extends Component {
 function CardNew(props) {
   return (
     <div className="CardInfo">
-      <img width="140px" src={props.imgsrc} />
+      <img width="140px" src={props.imgsrc} alt="Info" />
       <p>{props.description}</p>
     </div>
   );
@@ -54,11 +55,13 @@ function CardNew(props) {
 class BannerInfo extends Component {
   render() {
     const imgSliderInfo = SliderInfo.map((item) => {
-      return <img src={item.imgSrc} />;
+      return <img src={item.imgSrc} alt="..." />;
     });
 
-    const CardsOfNews = News.map((item) => {
-      return <CardNew imgsrc={item.imgSrc} description={item.content} />;
+    const CardsOfNews = News.map((item, index) => {
+      return (
+        <CardNew key={index} imgsrc={item.imgSrc} description={item.content} />
+      );
     });
 
     return (
@@ -115,9 +118,9 @@ class PageHome extends Component {
             height="550"
             src="https://www.youtube.com/embed/P3MY6vPdgZM?controls=0"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <BannerParks />

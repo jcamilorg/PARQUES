@@ -18,14 +18,15 @@ export default function HeaderParques() {
 
         <nav className="navbar navbar-expand-lg navbar-light navbarCar text-start font-antipasto-regular">
           <div className="container justify-content-center d-flex">
-            <a href="#">
+            <NavLink to="/">
               <img
                 className="ContainerImgHeader"
                 src={LogoParks}
                 width="180px"
+                alt=""
               />
               <div className="SpaceContainerImgHeader"></div>
-            </a>
+            </NavLink>
 
             <button
               className="navbar-toggler m-2 position-absolute top-0 end-0"
@@ -36,7 +37,7 @@ export default function HeaderParques() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

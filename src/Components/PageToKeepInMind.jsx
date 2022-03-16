@@ -13,51 +13,25 @@ function TableToKeepInMind() {
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
-          </div>
-        </td>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
-          </div>
-        </td>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
-          </div>
-        </td>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
       </tr>
@@ -65,51 +39,25 @@ function TableToKeepInMind() {
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
-          </div>
-        </td>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
-          </div>
-        </td>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
-          </div>
-        </td>
-        <td className="p-3">
-          <div className="d-flex align-items-center">
-            No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
       </tr>
@@ -117,25 +65,25 @@ function TableToKeepInMind() {
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-x text-acua"></i>
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
           </div>
         </td>
       </tr>
@@ -143,25 +91,77 @@ function TableToKeepInMind() {
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
         <td className="p-3">
           <div className="d-flex align-items-center">
             No esta permitido entrar en los espejos de agua
-            <i class="px-2 fs-3 fa-solid fa-check text-green"></i>
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
+          </div>
+        </td>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
+          </div>
+        </td>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
+          </div>
+        </td>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-x text-acua"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
+          </div>
+        </td>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
+          </div>
+        </td>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
+          </div>
+        </td>
+        <td className="p-3">
+          <div className="d-flex align-items-center">
+            No esta permitido entrar en los espejos de agua
+            <i className="px-2 fs-3 fa-solid fa-check text-green"></i>
           </div>
         </td>
       </tr>

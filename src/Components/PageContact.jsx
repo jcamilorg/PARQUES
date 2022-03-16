@@ -9,41 +9,41 @@ export default class PageContact extends Component {
         </span>
         <div className="ContainerRoundedTop"></div>
         <div className=" bg-white text-dark row">
-          <div class="container py-4 col-10 col-md-8 col-lg-6">
+          <div className="container py-4 col-10 col-md-8 col-lg-6">
             <form id="contactForm">
-              <div class="mb-3">
-                <label class="form-label fs-5 text-dark-acua" for="name">
+              <div className="mb-3">
+                <label className="form-label fs-5 text-dark-acua" for="name">
                   Nombre
                 </label>
                 <input
-                  class="form-control"
+                  className="form-control"
                   id="name"
                   type="text"
                   placeholder="Name"
                 />
               </div>
 
-              <div class="mb-3">
+              <div className="mb-3">
                 <label
-                  class="form-label fs-5 text-dark-acua"
+                  className="form-label fs-5 text-dark-acua"
                   for="emailAddress"
                 >
                   Correo electrónico
                 </label>
                 <input
-                  class="form-control"
+                  className="form-control"
                   id="emailAddress"
                   type="email"
                   placeholder="Email Address"
                 />
               </div>
 
-              <div class="mb-3">
-                <label class="form-label fs-5 text-dark-acua" for="message">
+              <div className="mb-3">
+                <label className="form-label fs-5 text-dark-acua" for="message">
                   Mensaje
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="message"
                   type="text"
                   placeholder="Message"
@@ -51,8 +51,8 @@ export default class PageContact extends Component {
                 ></textarea>
               </div>
 
-              <div class="d-grid">
-                <button class="btn btn-success btn-lg" type="submit">
+              <div className="d-grid">
+                <button className="btn btn-success btn-lg" type="submit">
                   Enviar
                 </button>
               </div>
