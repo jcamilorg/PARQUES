@@ -302,7 +302,6 @@ let SliderExperience = [
     scrolling="no"
     frameBorder="0"
     allowFullScreen={true}
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
   ></iframe>,
   <iframe
     title="Post2"
@@ -312,7 +311,6 @@ let SliderExperience = [
     scrolling="no"
     frameBorder="0"
     allowFullScreen={true}
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
   ></iframe>,
 ];
 
