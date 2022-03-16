@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Slider from "./Utils/Slider";
-import Titulo from "./Utils/TitlePark";
+//import Titulo from "./Utils/TitlePark";
 import { SliderBookings } from "./Utils/InfoParks";
 
 const CardsOfBookings = SliderBookings.map((item) => {
