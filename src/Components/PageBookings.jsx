@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Slider from "./Utils/Slider";
 //import Titulo from "./Utils/TitlePark";
 import { SliderBookings } from "./Utils/InfoParks";
+//Importacion de multi carousel
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const CardsOfBookings = SliderBookings.map((item) => {
   return (
@@ -16,24 +19,54 @@ const CardsOfBookings = SliderBookings.map((item) => {
 
 function CardOfBooking(props) {
   return (
-    <div className="container d-flex flex-column align-items-center border shadow-lg rounded-3 justify-content-between">
-      <div className="d-flex flex-column align-items-center">
-        <h3 className="title my-4 p-3 w-75 ">{props.title}</h3>
-        <img
-          className="w-100"
-          height="250px"
-          src={props.imgSrc}
-          alt="..."
-        />{" "}
-      </div>
-      <p className="px-5 pt-3 pb-4">{props.description}</p>
+    <div className="m-4">
+      <div className="container d-flex flex-column align-items-center border shadow-lg rounded-3 justify-content-between p-4">
+        <div className="d-flex flex-column align-items-center">
+          <h3 className="title my-4 p-3 w-75 ">{props.title}</h3>
+          <img
+            className="w-100"
+            height="250px"
+            src={props.imgSrc}
+            alt="..."
+          />{" "}
+        </div>
+        <p className="px-3 pt-3 pb-4">{props.description}</p>
 
-      <Link className="text-decoration-none text-info pb-5 " to="./reservas">
-        Reservar <i className="fa-solid fa-circle-plus"></i>
-      </Link>
+        <Link className="text-decoration-none text-info pb-5 " to="./reservas">
+          Reservar <i className="fa-solid fa-circle-plus"></i>
+        </Link>
+      </div>
     </div>
   );
 }
+
+const responsive = {
+  desktop: {
+    breakpoint: {
+      max: 3000,
+      min: 1024,
+    },
+    items: 3,
+    partialVisibilityGutter: 40,
+  },
+  mobile: {
+    breakpoint: {
+      max: 600,
+      min: 0,
+    },
+    items: 1,
+    partialVisibilityGutter: 30,
+  },
+  tablet: {
+    breakpoint: {
+      max: 1024,
+      min: 600,
+    },
+    items: 2,
+    partialVisibilityGutter: 30,
+  },
+};
+
 export default class PageBookings extends Component {
   render() {
     return (
@@ -48,10 +81,20 @@ export default class PageBookings extends Component {
             <b>El primer día hábil de cada semana NO hay atención</b> ni se
             permite el ingreso a ninguno de nuestros parques.
           </p>
-          <div className="row justify-content-center p-5">
-            <div className="col-10 col-md-8 col-lg-5  pb-5 font-sans-serif">
-              <Slider data={CardsOfBookings} id="slider_Horarios" />
-            </div>
+          <div className="container font-sans-serif pb-5">
+            <Carousel
+              responsive={responsive}
+              additionalTransfrom={0}
+              autoPlay
+              autoPlaySpeed={4500}
+              centerMode={false}
+              className=""
+              draggable
+              infinite
+              minimumTouchDrag={80}
+            >
+              {CardsOfBookings}
+            </Carousel>
           </div>
         </div>
       </div>

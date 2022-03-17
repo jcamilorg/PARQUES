@@ -347,6 +347,9 @@ let SliderBookings = [
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
       </b>
     ),
     linkBtn: "",
@@ -359,6 +362,8 @@ let SliderBookings = [
       <p>
         Prepara tu carpa y ven a nuestros parques a disfrutar las zonas de
         camping que tenemos para ti.
+        <br />
+        <br />
         <br />
         <br />
         <br />
