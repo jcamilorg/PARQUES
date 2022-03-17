@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PARQUES/static/css/main.36a3b8e7.css",
-    "main.js": "/PARQUES/static/js/main.4cbcdc24.js",
+    "main.css": "/PARQUES/static/css/main.9f3cb594.css",
+    "main.js": "/PARQUES/static/js/main.061a7b56.js",
     "static/media/imagen fondo opiniones.png": "/PARQUES/static/media/imagen fondo opiniones.2e265a4698eb6a803744.png",
     "static/media/Antipasto-Pro-ExtraLight-trial.ttf": "/PARQUES/static/media/Antipasto-Pro-ExtraLight-trial.e891c28d2edd658aab88.ttf",
     "static/media/Antipasto-Pro-ExtraBold-trial.ttf": "/PARQUES/static/media/Antipasto-Pro-ExtraBold-trial.98eb5eceed2a804e56f9.ttf",
@@ -14,6 +14,9 @@
     "static/media/Cabañas_QH.png": "/PARQUES/static/media/Cabañas_QH.fe9084ccc6fd18ded01d.png",
     "static/media/hummingbird.png": "/PARQUES/static/media/hummingbird.c90e87ef3c6432416890.png",
     "static/media/Logo_parques.svg": "/PARQUES/static/media/Logo_parques.f53ef7ccfeeaa1c92c87a661840fbfd9.svg",
+    "static/media/revicons.eot": "/PARQUES/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/PARQUES/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/PARQUES/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/footer_Logo_CAR.svg": "/PARQUES/static/media/footer_Logo_CAR.5176582fa2b88a883d93c441bed7d280.svg",
     "static/media/btn-ver-mas.svg": "/PARQUES/static/media/btn-ver-mas.9bace65a6329e6333b9b0ae06715fab8.svg",
     "static/media/bg-titulo-parques.svg": "/PARQUES/static/media/bg-titulo-parques.18c0fe996fe6a0c061e1.svg",
@@ -31,11 +34,11 @@
     "static/media/footer_Youtube.svg": "/PARQUES/static/media/footer_Youtube.81efa1dc0de14e0fd1ee041aa3d296b3.svg",
     "static/media/footer_facebook.svg": "/PARQUES/static/media/footer_facebook.2c3b486e20a2a2123efe7647b27e6822.svg",
     "static/media/Header.svg": "/PARQUES/static/media/Header.77f0dbc8d1b1d4590f45.svg",
-    "main.36a3b8e7.css.map": "/PARQUES/static/css/main.36a3b8e7.css.map",
-    "main.4cbcdc24.js.map": "/PARQUES/static/js/main.4cbcdc24.js.map"
+    "main.9f3cb594.css.map": "/PARQUES/static/css/main.9f3cb594.css.map",
+    "main.061a7b56.js.map": "/PARQUES/static/js/main.061a7b56.js.map"
   },
   "entrypoints": [
-    "static/css/main.36a3b8e7.css",
-    "static/js/main.4cbcdc24.js"
+    "static/css/main.9f3cb594.css",
+    "static/js/main.061a7b56.js"
   ]
 }
