@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Slider from "./Utils/Slider";
 //import Titulo from "./Utils/TitlePark";
 import { SliderBookings } from "./Utils/InfoParks";
 //Importacion de multi carousel
@@ -103,7 +102,7 @@ export default class PageBookings extends Component {
 }
 
 const background = {
-  backgroundImage: `url("https://i0.wp.com/revistadiners.com.co/wp-content/uploads/2020/01/WhatsApp-Image-2020-01-08-at-4.08.41-PM.jpeg?resize=1280%2C853&ssl=1")`,
+  backgroundImage: `url("https://parques.car.gov.co/imagenes/85041Vistaexterior2caba%C3%B1as2.jpg")`,
   backgroundSize: "100%",
   backgroundPosition: "0% -70%",
 };
