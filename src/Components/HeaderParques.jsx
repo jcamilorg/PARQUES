@@ -15,7 +15,6 @@ export default function HeaderParques() {
             placeholder="Buscar en esta pagina 🔎"
           />
         </div>
-
         <nav className="navbar navbar-expand-lg navbar-light navbarCar text-start font-antipasto-regular">
           <div className="container justify-content-center d-flex">
             <NavLink to="/">

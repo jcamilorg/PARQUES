@@ -164,7 +164,11 @@ export default class PageFrequentlyQuestions extends Component {
               datos importantes para tu viaje!
             </p>
             <div className="mt-4 container-fluid">
-              <img src={require("./Assets/Img/MapaParques.png")} alt="..." />
+              <img
+                className="img-fluid"
+                src={require("./Assets/Img/MapaParques.png")}
+                alt="..."
+              />
             </div>
           </div>
         </div>

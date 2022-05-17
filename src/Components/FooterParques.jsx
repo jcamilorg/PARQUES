@@ -39,21 +39,21 @@ export default function FooterParques() {
                 width="50px"
                 src={LogoFacebook}
                 alt="Facebook"
-              />
+              />{" "}
               <img
                 className="mx-3"
                 height="50px"
                 width="50px"
                 src={LogoTwitter}
                 alt="Twitter"
-              />
+              />{" "}
               <img
                 className="mx-3"
                 height="50px"
                 width="50px"
                 src={LogoInstagram}
                 alt="Instagram"
-              />
+              />{" "}
               <img
                 className="mx-3"
                 height="50px"
